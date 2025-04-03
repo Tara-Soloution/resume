@@ -70,11 +70,11 @@ export async function GET() {
     await page.evaluate(() => {
       const actionButtons = document.querySelector('.fixed.top-4.right-4');
       if (actionButtons) {
-        actionButtons.style.display = 'none';
+        (actionButtons as HTMLElement).style.display = 'none';
       }
     });
 
-    // Generate PDF
+    // Generate PDF with smaller margins and better quality
     const pdf = await page.pdf({
       format: 'A4',
       printBackground: true,
@@ -84,6 +84,7 @@ export async function GET() {
         bottom: '0.4in',
         left: '0.4in',
       },
+      preferCSSPageSize: true,
     });
 
     // Close browser

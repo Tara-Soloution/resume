@@ -6,19 +6,20 @@ import { Printer } from "lucide-react"
 export default function ResumePage() {
     return (
         <main className="min-h-screen bg-white">
-            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 print:max-w-none print:px-0 print:py-0 print:aspect-[1/1.4142] print:w-[210mm] print:h-[297mm]">
-                {/* Header Section with decorative elements */}
-                <div className="relative mb-8 pb-8 border-b border-gray-100">
-                    {/* Decorative elements */}
-                    <div className="absolute top-0 right-0 w-64 h-64 opacity-5">
-                        <div className="absolute top-0 right-0 w-32 h-32 border-t-2 border-r-2 border-gray-800"></div>
-                        <div className="absolute bottom-0 left-0 w-32 h-32 border-b-2 border-l-2 border-gray-800"></div>
-                    </div>
+            <div className="max-w-5xl mx-auto p-8 bg-white shadow-lg">
+                {/* Header */}
+                <header className="text-center mb-8">
+                    <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2 print:text-2xl">Lebenslauf</h1>
+                    <p className="text-lg text-gray-600 print:text-base">Software Engineer</p>
+                </header>
 
+                {/* Personal Information */}
+                <section className="mb-8">
+                    <h2 className="text-2xl font-semibold text-gray-800 mb-4 print:text-xl">Persönliche Informationen</h2>
                     <div className="flex items-start justify-between relative z-10">
                         <div className="flex-1 space-y-4 pt-2">
                             <div className="relative">
-                                <h1 className="text-5xl font-bold text-gray-900 tracking-tight">GHULAM ABBAS ATAIE</h1>
+                                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight print:text-3xl">GHULAM ABBAS ATAIE</h1>
                                 <div className="absolute -bottom-2 left-0 w-24 h-1 bg-blue-600"></div>
                             </div>
 
@@ -67,13 +68,13 @@ export default function ResumePage() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <div className="mt-12 grid grid-cols-3 gap-6">
                     {/* Left Column (Experience) */}
                     <div className="col-span-2">
-                        <section>
-                            <h2 className="text-xl font-bold border-b pb-1 mb-4 text-gray-800">BERUFSERFAHRUNG</h2>
+                        <section className="mb-8">
+                            <h2 className="text-2xl font-semibold text-gray-800 mb-4 print:text-xl">Berufserfahrung</h2>
 
                             {/* CTO Position */}
                             <div className="mb-4 relative group hover:bg-gray-50 rounded-lg transition-colors duration-300">
@@ -251,7 +252,7 @@ export default function ResumePage() {
 
                         {/* Education Section */}
                         <section className="mt-8">
-                            <h2 className="text-xl font-bold border-b pb-1 mb-4 text-gray-800">AUSBILDUNG</h2>
+                            <h2 className="text-2xl font-semibold text-gray-800 mb-4 print:text-xl">Ausbildung</h2>
                             <div className="mb-4 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
                                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                                 <div className="pl-4 py-2">
@@ -436,7 +437,7 @@ export default function ResumePage() {
 
                         {/* Skills Section */}
                         <section className="mt-8">
-                            <h2 className="text-xl font-bold border-b pb-1 mb-2 text-gray-800">FÄHIGKEITEN</h2>
+                            <h2 className="text-2xl font-semibold text-gray-800 mb-4 print:text-xl">Fähigkeiten</h2>
                             <div className="flex flex-wrap gap-1.5">
                                 {[
                                     'Next.js', 'React.js', 'Node.js',
@@ -458,6 +459,28 @@ export default function ResumePage() {
                         </section>
                     </div>
                 </div>
+            </div>
+
+            {/* Action Buttons */}
+            <div className="fixed bottom-8 right-8 flex gap-4 print:hidden">
+                <Button
+                    onClick={() => window.print()}
+                    className="bg-gray-800 hover:bg-gray-700 text-white"
+                >
+                    <Printer className="mr-2 h-4 w-4" />
+                    Drucken
+                </Button>
+                <Button
+                    onClick={() => window.location.href = '/api/generate-pdf'}
+                    className="bg-blue-600 hover:bg-blue-700 text-white"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="mr-2 h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    PDF herunterladen
+                </Button>
             </div>
         </main>
     )
