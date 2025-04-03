@@ -25,61 +25,51 @@ export default function Resume() {
   };
 
   return (
-    <main className="min-h-screen bg-white p-8 max-w-5xl mx-auto">
-      {/* Main Resume Content */}
-      <div className="space-y-8">
-        {/* Header Section */}
-        <header className="relative mb-10">
-          {/* Decorative elements */}
-          <div className="absolute top-0 right-0 w-64 h-64 opacity-5">
-            <div className="absolute top-0 right-0 w-32 h-32 border-t-2 border-r-2 border-gray-800"></div>
-            <div className="absolute bottom-0 left-0 w-32 h-32 border-b-2 border-l-2 border-gray-800"></div>
-          </div>
-
-          <div className="flex items-start justify-between relative z-10">
-            <div className="flex-1 space-y-4 pt-2">
-              <div className="relative">
-                <h1 className="text-5xl font-bold text-gray-900 tracking-tight">GHULAM ABBAS ATAIE</h1>
-                <div className="absolute -bottom-2 left-0 w-24 h-1 bg-gray-800"></div>
-              </div>
-
-              <h2 className="text-2xl font-medium text-gray-700 pl-1">Senior Software-Entwickler</h2>
-
-              <div className="space-y-3 text-gray-600 text-base pl-1">
-                <div className="flex flex-wrap items-center gap-6">
-                  <span className="flex items-center gap-2">
-                    <span className="text-gray-800">📞</span>
-                    <span>+989912906146</span>
-                  </span>
-                  <span className="flex items-center gap-2">
-                    <span className="text-gray-800">📧</span>
-                    <span>abbas.ataie.montazer@gmail.com</span>
-                  </span>
-                </div>
-                <div className="flex flex-wrap items-center gap-6">
-                  <a href="https://github.com/abbasatayee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gray-900 transition-colors">
-                    <span className="text-gray-800">🔗</span>
-                    <span>github.com/abbasatayee</span>
-                  </a>
-                  <a href="https://linkedin.com/in/abbas-ataie-72a4431b9" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gray-900 transition-colors">
-                    <span className="text-gray-800">💼</span>
-                    <span>linkedin.com/in/abbas-ataie-72a4431b9</span>
-                  </a>
-                </div>
-              </div>
+    <main className="min-h-screen bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="flex items-start justify-between relative z-10">
+          <div className="flex-1 space-y-4 pt-2">
+            <div className="relative">
+              <h1 className="text-5xl font-bold text-gray-900 tracking-tight">GHULAM ABBAS ATAIE</h1>
+              <div className="absolute -bottom-2 left-0 w-24 h-1 bg-gray-800"></div>
             </div>
 
-            <div className="relative w-44 h-44 ml-8">
-              <div className="absolute inset-0 rounded-lg overflow-hidden shadow-sm">
-                <img
-                  src="/profile/abbas.jpg"
-                  alt="Profilbild"
-                  className="h-full w-full object-cover object-center"
-                />
+            <h2 className="text-2xl font-medium text-gray-700 pl-1">Senior Software-Entwickler</h2>
+
+            <div className="space-y-3 text-gray-600 text-base pl-1">
+              <div className="flex flex-wrap items-center gap-6">
+                <span className="flex items-center gap-2">
+                  <span className="text-gray-800">📞</span>
+                  <span>+989912906146</span>
+                </span>
+                <span className="flex items-center gap-2">
+                  <span className="text-gray-800">📧</span>
+                  <span>abbas.ataie.montazer@gmail.com</span>
+                </span>
+              </div>
+              <div className="flex flex-wrap items-center gap-6">
+                <a href="https://github.com/abbasatayee" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gray-900 transition-colors">
+                  <span className="text-gray-800">🔗</span>
+                  <span>github.com/abbasatayee</span>
+                </a>
+                <a href="https://linkedin.com/in/abbas-ataie-72a4431b9" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gray-900 transition-colors">
+                  <span className="text-gray-800">💼</span>
+                  <span>linkedin.com/in/abbas-ataie-72a4431b9</span>
+                </a>
               </div>
             </div>
           </div>
-        </header>
+
+          <div className="relative w-44 h-44 ml-8">
+            <div className="absolute inset-0 rounded-lg overflow-hidden shadow-sm">
+              <img
+                src="/profile/abbas.jpg"
+                alt="Profilbild"
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
+          </div>
+        </div>
 
         <div className="grid grid-cols-3 gap-6">
           {/* Left Column (Experience) */}
