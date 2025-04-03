@@ -126,19 +126,19 @@ export default function Resume() {
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">▹</span>
-                      <span className="leading-tight"><span className="font-medium">Entwicklung von Web- und Mobile-Anwendungen</span> mit Node.js, React.js, Nomad, TypeScript, React Native</span>
+                      <span className="leading-tight"><span className="font-bold">Entwicklung von Web- und Mobile-Anwendungen</span> mit <span className="font-semibold">Node.js, React.js, Nomad, TypeScript, React Native</span></span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">▹</span>
-                      <span className="leading-tight"><span className="font-medium">Partnerschaft mit Cloud Station LLC FZ (Dubai)</span> für Enterprise-Cloud-Lösungen</span>
+                      <span className="leading-tight"><span className="font-bold">Strategische Partnerschaft</span> mit Cloud Station LLC FZ (Dubai) für <span className="font-semibold">Enterprise-Cloud-Lösungen</span></span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">▹</span>
-                      <span className="leading-tight"><span className="font-medium">Leitung des technischen Teams</span>, Sicherstellung von Code-Qualität und Best Practices</span>
+                      <span className="leading-tight"><span className="font-bold">Technische Teamleitung</span>, Implementierung von <span className="font-semibold">Code-Qualitätsstandards</span> und Best Practices</span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">▹</span>
-                      <span className="leading-tight"><span className="font-medium">Architektur und strategische Planung</span> von Microservices und Cloud-Infrastrukturen</span>
+                      <span className="leading-tight"><span className="font-bold">Architektur und strategische Planung</span> von <span className="font-semibold">Microservices</span> und <span className="font-semibold">Cloud-Infrastrukturen</span></span>
                     </li>
                   </ul>
                 </div>
@@ -163,15 +163,15 @@ export default function Resume() {
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">▹</span>
-                      <span className="leading-tight"><span className="font-medium">Design und Optimierung von PostgreSQL-Datenbanken</span> für E-Commerce-Systeme</span>
+                      <span className="leading-tight"><span className="font-bold">Design und Optimierung</span> von <span className="font-semibold">PostgreSQL-Datenbanken</span> für E-Commerce-Systeme</span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">▹</span>
-                      <span className="leading-tight"><span className="font-medium">Entwicklung von RESTful APIs und Microservices</span> mit NestJS und Next.js</span>
+                      <span className="leading-tight"><span className="font-bold">Entwicklung von RESTful APIs</span> und <span className="font-semibold">Microservices</span> mit <span className="font-semibold">NestJS</span> und <span className="font-semibold">Next.js</span></span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">▹</span>
-                      <span className="leading-tight"><span className="font-medium">CI/CD-Automatisierung</span> mit GitHub Actions und Google Cloud Platform</span>
+                      <span className="leading-tight"><span className="font-bold">CI/CD-Automatisierung</span> mit <span className="font-semibold">GitHub Actions</span> und <span className="font-semibold">Google Cloud Platform</span></span>
                     </li>
                   </ul>
                 </div>
@@ -298,19 +298,19 @@ export default function Resume() {
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">▹</span>
-                      <span className="leading-tight"><span className="font-medium">Hochqualifiziertes Masterprogramm</span> mit Fokus auf modernste Technologien und Methoden</span>
+                      <span className="leading-tight"><span className="font-bold">Hochqualifiziertes Masterprogramm</span> mit Fokus auf modernste Technologien und Methoden</span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">▹</span>
-                      <span className="leading-tight"><span className="font-medium">Kernfächer:</span> Data Science, Data Engineering, Data Analytics, Machine Learning</span>
+                      <span className="leading-tight"><span className="font-bold">Kernfächer:</span> <span className="font-semibold">Data Science, Data Engineering, Data Analytics, Machine Learning</span></span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">▹</span>
-                      <span className="leading-tight"><span className="font-medium">Spezialisierung:</span> Cloud Computing, Decision Support Systems</span>
+                      <span className="leading-tight"><span className="font-bold">Spezialisierung:</span> <span className="font-semibold">Cloud Computing, Decision Support Systems</span></span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">▹</span>
-                      <span className="leading-tight"><span className="font-medium">Zusätzliche Qualifikationen:</span> Unternehmerisches Denken & Digitale Geschäftsmodelle</span>
+                      <span className="leading-tight"><span className="font-bold">Zusätzliche Qualifikationen:</span> <span className="font-semibold">Unternehmerisches Denken & Digitale Geschäftsmodelle</span></span>
                     </li>
                   </ul>
                 </div>
@@ -354,11 +354,13 @@ export default function Resume() {
                     <span className="text-blue-500 mr-1.5 font-bold">▹</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">Tara Solutions Cloud</span>
-                      <p className="text-xs text-gray-600 leading-tight mt-0.5">Entwicklung der offiziellen Website von Tara Solutions Inc. mit Fokus auf Leistungsoptimierung und Sicherheit.</p>
+                      <p className="text-xs text-gray-600 leading-tight mt-0.5">
+                        <span className="font-bold">Entwicklung der offiziellen Website</span> von Tara Solutions Inc. mit Fokus auf <span className="font-semibold">Leistungsoptimierung</span> und <span className="font-semibold">Sicherheit</span>
+                      </p>
                       <div className="flex flex-wrap gap-1 mt-1">
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">Next.js</span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">React.js</span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">Node.js</span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">Next.js</span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">React.js</span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">Node.js</span>
                       </div>
                       <a href="https://www.tarasolutions.cloud"
                         target="_blank"
@@ -376,13 +378,15 @@ export default function Resume() {
                     <span className="text-blue-500 mr-1.5 font-bold">▹</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">Cloud Station Plattform</span>
-                      <p className="text-xs text-gray-600 leading-tight mt-0.5">Skalierbare Enterprise-Cloud-Services-Plattform mit globaler Nutzerbasis. Implementierung von Frontend und Backend mit Fokus auf Leistung.</p>
+                      <p className="text-xs text-gray-600 leading-tight mt-0.5">
+                        <span className="font-bold">Skalierbare Enterprise-Cloud-Services-Plattform</span> mit globaler Nutzerbasis. <span className="font-semibold">Implementierung von Frontend und Backend</span> mit Fokus auf Leistung.
+                      </p>
                       <div className="flex flex-wrap gap-1 mt-1">
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">React.js</span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">Next.js</span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">Node.js</span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">Kafka</span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">Nats</span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">React.js</span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">Next.js</span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">Node.js</span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">Kafka</span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">Nats</span>
                       </div>
                       <a href="https://www.cloud-station.io"
                         target="_blank"
@@ -499,7 +503,7 @@ export default function Resume() {
                 ].map((skill) => (
                   <span
                     key={skill}
-                    className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs hover:bg-gray-200 transition-colors"
+                    className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
                   >
                     {skill}
                   </span>
