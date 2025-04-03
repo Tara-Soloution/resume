@@ -4,8 +4,8 @@ import { Document, Page, Text, View, StyleSheet, Font } from '@react-pdf/rendere
 Font.register({
     family: 'Helvetica',
     fonts: [
-        { src: 'https://fonts.cdnfonts.com/s/29107/Helvetica.woff' },
-        { src: 'https://fonts.cdnfonts.com/s/29107/Helvetica-Bold.woff', fontWeight: 'bold' },
+        { src: 'https://fonts.cdnfonts.com/s/29107/Helvetica.woff', fontWeight: 400 },
+        { src: 'https://fonts.cdnfonts.com/s/29107/Helvetica-Bold.woff', fontWeight: 700 },
     ],
 });
 
@@ -60,14 +60,12 @@ const styles = StyleSheet.create({
         marginBottom: 20,
     },
     sectionTitle: {
-        fontSize: 16,
+        fontSize: 14,
         fontWeight: 'bold',
-        color: '#333333',
-        borderBottomWidth: 1,
-        borderBottomColor: '#CCCCCC',
-        paddingBottom: 5,
-        marginBottom: 15,
-        textTransform: 'uppercase',
+        marginBottom: 8,
+        color: '#1a365d',
+        borderBottom: '1 solid #e2e8f0',
+        paddingBottom: 4,
     },
     experienceItem: {
         marginBottom: 15,
@@ -127,6 +125,41 @@ const styles = StyleSheet.create({
         color: '#444444',
         lineHeight: 1.5,
         marginBottom: 15,
+    },
+    projectItem: {
+        marginBottom: 8,
+        paddingLeft: 8,
+        borderLeft: '2 solid #3b82f6',
+    },
+    projectTitle: {
+        fontSize: 11,
+        fontWeight: 'bold',
+        color: '#1a365d',
+    },
+    projectLink: {
+        fontSize: 9,
+        color: '#2563eb',
+        marginTop: 2,
+        textDecoration: 'underline',
+    },
+    projectDescription: {
+        fontSize: 9,
+        color: '#4a5568',
+        marginTop: 2,
+        lineHeight: 1.4,
+    },
+    tagContainer: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        gap: 4,
+        marginTop: 4,
+    },
+    tag: {
+        fontSize: 8,
+        color: '#2563eb',
+        backgroundColor: '#eff6ff',
+        padding: 2,
+        borderRadius: 2,
     },
 });
 
@@ -212,6 +245,66 @@ const ResumePDF = () => (
                         <View style={styles.languageItem}>
                             <Text style={styles.languageName}>German</Text>
                             <Text style={styles.languageLevel}>Advanced</Text>
+                        </View>
+                    </View>
+
+                    {/* Projects Section */}
+                    <View style={styles.section}>
+                        <Text style={styles.sectionTitle}>PROJEKTE</Text>
+
+                        <View style={styles.projectItem}>
+                            <Text style={styles.projectTitle}>Tara Solutions Cloud</Text>
+                            <Text style={styles.projectLink}>www.tarasolutions.cloud</Text>
+                            <Text style={styles.projectDescription}>
+                                Entwicklung der offiziellen Website von Tara Solutions Inc. mit Fokus auf Leistungsoptimierung und Sicherheit.
+                            </Text>
+                            <View style={styles.tagContainer}>
+                                <Text style={styles.tag}>Next.js</Text>
+                                <Text style={styles.tag}>React.js</Text>
+                                <Text style={styles.tag}>Node.js</Text>
+                            </View>
+                        </View>
+
+                        <View style={styles.projectItem}>
+                            <Text style={styles.projectTitle}>Cloud Station Platform</Text>
+                            <Text style={styles.projectLink}>www.cloud-station.io</Text>
+                            <Text style={styles.projectDescription}>
+                                Skalierbare Enterprise-Cloud-Services-Plattform mit globaler Nutzerbasis. Implementierung von Frontend und Backend mit Fokus auf Leistung.
+                            </Text>
+                            <View style={styles.tagContainer}>
+                                <Text style={styles.tag}>React.js</Text>
+                                <Text style={styles.tag}>Next.js</Text>
+                                <Text style={styles.tag}>Node.js</Text>
+                                <Text style={styles.tag}>Kafka</Text>
+                                <Text style={styles.tag}>Nats</Text>
+                            </View>
+                        </View>
+
+                        <View style={styles.projectItem}>
+                            <Text style={styles.projectTitle}>Ahsen Elite E-Commerce</Text>
+                            <Text style={styles.projectLink}>ahsenelite.com</Text>
+                            <Text style={styles.projectDescription}>
+                                Web- und Mobile-Anwendungen mit sicherer Zahlungsabwicklung und Bestellverwaltung für optimale Benutzererfahrung.
+                            </Text>
+                            <View style={styles.tagContainer}>
+                                <Text style={styles.tag}>React.js</Text>
+                                <Text style={styles.tag}>React Native</Text>
+                                <Text style={styles.tag}>Next.js</Text>
+                                <Text style={styles.tag}>Node.js</Text>
+                            </View>
+                        </View>
+
+                        <View style={styles.projectItem}>
+                            <Text style={styles.projectTitle}>Plant Disease Detection System</Text>
+                            <Text style={styles.projectDescription}>
+                                KI-gestütztes Deep-Learning-System zur Erkennung von Pflanzenkrankheiten mit Raspberry Pi und Kamera für Echtzeitdiagnose.
+                            </Text>
+                            <View style={styles.tagContainer}>
+                                <Text style={styles.tag}>Deep Learning</Text>
+                                <Text style={styles.tag}>Raspberry Pi</Text>
+                                <Text style={styles.tag}>Python</Text>
+                                <Text style={styles.tag}>Computer Vision</Text>
+                            </View>
                         </View>
                     </View>
 
