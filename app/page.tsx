@@ -46,7 +46,7 @@ export default function Resume() {
                 <div className="absolute -bottom-2 left-0 w-24 h-1 bg-blue-600"></div>
               </div>
 
-              <h2 className="text-lg font-medium text-gray-700 pl-1">Senior Software-Entwickler</h2>
+              <h2 className="text-lg font-medium text-gray-700 pl-1">Senior Software-Entwickler | Full Stack Engineer | Cloud Architect</h2>
 
               <div className="space-y-1.5 text-gray-600 text-xs pl-1">
                 <div className="flex flex-wrap items-center gap-3">
@@ -57,6 +57,10 @@ export default function Resume() {
                   <span className="flex items-center gap-1.5">
                     <span className="text-blue-600">📧</span>
                     <span>abbas.ataie.montazer@gmail.com</span>
+                  </span>
+                  <span className="flex items-center gap-1.5">
+                    <span className="text-blue-600">📍</span>
+                    <span>Berlin, Deutschland</span>
                   </span>
                 </div>
                 <div className="flex flex-wrap items-center gap-3">
@@ -93,11 +97,11 @@ export default function Resume() {
           </div>
         </div>
 
-        {/* Summary Section - Moved closer to profile */}
+        {/* Summary Section - Enhanced for ATS */}
         <div className="mt-2 mb-8 bg-gray-50 p-4 rounded-lg border border-gray-100">
           <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">ZUSAMMENFASSUNG</h2>
           <p className="text-xs text-gray-600">
-            <span className="font-medium">Ergebnisorientierter Software-Entwickler</span> mit 5+ Jahren Expertise in Next.JS, React.JS, Node.JS, Microservices, Node JS, Typescript. Bewährte Erfolgsbilanz in der Entwicklung skalierbarer und erweiterbarer Softwarelösungen. Eifrig darauf bedacht, neue Herausforderungen anzunehmen und zu innovativen Projekten beizutragen.
+            <span className="font-medium">Senior Software-Entwickler und technischer Leiter</span> mit über 5 Jahren Erfahrung in der Entwicklung und Skalierung von Enterprise-Anwendungen. Nachgewiesene Expertise in <span className="font-semibold">Full-Stack-Entwicklung</span>, <span className="font-semibold">Cloud-Architektur</span> und <span className="font-semibold">technischer Führung</span>. Spezialisiert auf <span className="font-semibold">Node.js</span>, <span className="font-semibold">React.js</span>, <span className="font-semibold">TypeScript</span>, <span className="font-semibold">Microservices</span> und <span className="font-semibold">Cloud-Technologien</span>. Erfolgreiche Leitung von Teams und Umsetzung von technischen Strategien zur Entwicklung skalierbarer und wartbarer Softwarelösungen. Derzeit CTO bei Tara Solutions mit Fokus auf innovative Cloud-Lösungen und Unternehmensarchitektur.
           </p>
         </div>
 
@@ -451,63 +455,106 @@ export default function Resume() {
 
           {/* Right Column */}
           <div className="col-span-1">
-            {/* Languages Section */}
-            <section>
-              <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">SPRACHEN</h2>
-              <div className="space-y-1">
-                <div className="flex justify-between items-center">
-                  <span className="font-medium text-xs">Dari</span>
-                  <div className="flex gap-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+            {/* Skills Section - Reorganized for ATS */}
+            <section className="mt-4">
+              <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">TECHNISCHE FÄHIGKEITEN</h2>
+              <div className="space-y-2">
+                <div>
+                  <h3 className="text-xs font-bold text-gray-700 mb-1">Programmiersprachen:</h3>
+                  <div className="flex flex-wrap gap-1">
+                    {['JavaScript', 'TypeScript', 'Python', 'HTML5', 'CSS3'].map((skill) => (
+                      <span key={skill} className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors">
+                        {skill}
+                      </span>
+                    ))}
                   </div>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="font-medium text-xs">Englisch</span>
-                  <div className="flex gap-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+                <div>
+                  <h3 className="text-xs font-bold text-gray-700 mb-1">Frameworks & Bibliotheken:</h3>
+                  <div className="flex flex-wrap gap-1">
+                    {['React.js', 'Next.js', 'Node.js', 'NestJS', 'Express.js', 'React Native', 'Django'].map((skill) => (
+                      <span key={skill} className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors">
+                        {skill}
+                      </span>
+                    ))}
                   </div>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="font-medium text-xs">Deutsch</span>
-                  <div className="flex gap-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+                <div>
+                  <h3 className="text-xs font-bold text-gray-700 mb-1">Datenbanken & Storage:</h3>
+                  <div className="flex flex-wrap gap-1">
+                    {['PostgreSQL', 'MongoDB', 'MySQL', 'Redis', 'ElasticSearch'].map((skill) => (
+                      <span key={skill} className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-xs font-bold text-gray-700 mb-1">Cloud & DevOps:</h3>
+                  <div className="flex flex-wrap gap-1">
+                    {['AWS', 'GCP', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'GitHub Actions'].map((skill) => (
+                      <span key={skill} className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <h3 className="text-xs font-bold text-gray-700 mb-1">Architektur & Methoden:</h3>
+                  <div className="flex flex-wrap gap-1">
+                    {['Microservices', 'RESTful APIs', 'GraphQL', 'Event-Driven Architecture', 'Agile/Scrum', 'TDD'].map((skill) => (
+                      <span key={skill} className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors">
+                        {skill}
+                      </span>
+                    ))}
                   </div>
                 </div>
               </div>
             </section>
 
-            {/* Skills Section */}
-            <section className="mt-4">
-              <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">FÄHIGKEITEN</h2>
-              <div className="flex flex-wrap gap-1">
-                {[
-                  'Next.js', 'React.js', 'Node.js',
-                  'TypeScript', 'MongoDB', 'PostgreSQL',
-                  'Docker', 'AWS', 'GCP', 'NestJS',
-                  'React Native', 'Python', 'Django',
-                  'MySQL', 'Git', 'CI/CD',
-                  'Microservices', 'Cloud Computing',
-                  'REST APIs', 'Kafka', 'RabbitMQ'
-                ].map((skill) => (
-                  <span
-                    key={skill}
-                    className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
-                  >
-                    {skill}
-                  </span>
-                ))}
+            {/* Languages Section - Enhanced for ATS */}
+            <section className="mt-6">
+              <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">SPRACHEN</h2>
+              <div className="space-y-2">
+                <div className="flex justify-between items-center">
+                  <div>
+                    <span className="font-medium text-xs">Dari</span>
+                    <span className="text-xs text-gray-600 ml-2">(Muttersprache)</span>
+                  </div>
+                  <div className="flex gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div>
+                    <span className="font-medium text-xs">Englisch</span>
+                    <span className="text-xs text-gray-600 ml-2">(Fließend - C1)</span>
+                  </div>
+                  <div className="flex gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+                  </div>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div>
+                    <span className="font-medium text-xs">Deutsch</span>
+                    <span className="text-xs text-gray-600 ml-2">(Fortgeschritten - B2)</span>
+                  </div>
+                  <div className="flex gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+                  </div>
+                </div>
               </div>
             </section>
 
