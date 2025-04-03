@@ -1,13 +1,17 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Printer } from "lucide-react"
+import { Printer, Download } from "lucide-react"
 
 export default function Resume() {
   const handlePDFDownload = async () => {
     try {
       const response = await fetch('/api/generate-pdf');
-      if (!response.ok) throw new Error('Failed to generate PDF');
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.details || 'Failed to generate PDF');
+      }
 
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
@@ -18,14 +22,32 @@ export default function Resume() {
       a.click();
       window.URL.revokeObjectURL(url);
       document.body.removeChild(a);
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error downloading PDF:', error);
-      alert('Fehler beim Herunterladen der PDF. Bitte versuchen Sie es erneut.');
+      alert(`Failed to download PDF: ${error.message || 'Unknown error'}`);
     }
   };
 
   return (
     <main className="min-h-screen bg-white">
+      {/* Action Buttons */}
+      <div className="fixed top-4 right-4 flex gap-2 print:hidden z-50">
+        <Button
+          onClick={handlePDFDownload}
+          className="bg-blue-600 hover:bg-blue-700 text-white"
+        >
+          <Download className="w-4 h-4 mr-2" />
+          PDF herunterladen
+        </Button>
+        <Button
+          onClick={() => window.print()}
+          className="bg-gray-600 hover:bg-gray-700 text-white"
+        >
+          <Printer className="w-4 h-4 mr-2" />
+          Drucken
+        </Button>
+      </div>
+
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 print:max-w-none print:px-0 print:py-0 print:aspect-[1/1.4142] print:w-[210mm] print:h-[297mm]">
         {/* Header Section with decorative elements */}
         <div className="relative mb-8 pb-8 border-b border-gray-100">
