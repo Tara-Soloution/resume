@@ -60,7 +60,7 @@ export default function Resume() {
                   </span>
                   <span className="flex items-center gap-1.5">
                     <span className="text-blue-600">📍</span>
-                    <span>Berlin, Deutschland</span>
+                    <span>Tehran, Iran</span>
                   </span>
                 </div>
                 <div className="flex flex-wrap items-center gap-3">
