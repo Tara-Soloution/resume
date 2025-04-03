@@ -345,9 +345,9 @@ export default function Resume() {
                 <div className="flex justify-between items-center">
                   <span className="font-medium text-base">Deutsch</span>
                   <div className="flex gap-1">
-                    <span className="w-2 h-2 rounded-full bg-blue-500"></span>
-                    <span className="w-2 h-2 rounded-full bg-gray-300"></span>
-                    <span className="w-2 h-2 rounded-full bg-gray-300"></span>
+                    <span className="w-2 h-2 rounded-full bg-gray-800"></span>
+                    <span className="w-2 h-2 rounded-full bg-gray-800"></span>
+                    <span className="w-2 h-2 rounded-full bg-gray-800"></span>
                     <span className="w-2 h-2 rounded-full bg-gray-300"></span>
                     <span className="w-2 h-2 rounded-full bg-gray-300"></span>
                   </div>
