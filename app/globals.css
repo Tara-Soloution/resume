@@ -53,6 +53,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -61,28 +62,227 @@
 /* Print styles */
 @media print {
   @page {
+    size: A4;
     margin: 1.5cm;
   }
 
-  body {
-    -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
-  }
-
+  /* Hide print button and any other print-specific elements */
+  .print\:hidden,
+  button,
+  .print-button,
+  .no-print,
   .print\:hidden {
     display: none !important;
   }
 
-  .print\:shadow-none {
+  /* Remove any browser-added headers/footers */
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Remove browser-added title */
+  title {
+    display: none !important;
+  }
+
+  /* Remove browser-added header */
+  header {
+    display: none !important;
+  }
+
+  /* Preserve layout and styling */
+  main {
+    max-width: 100% !important;
+    padding: 2rem !important;
+    margin: 0 auto !important;
+    background-color: white !important;
+  }
+
+  /* Simplified card styling */
+  .card {
+    background-color: white !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 0.25rem !important;
+    padding: 1rem !important;
+    margin-bottom: 0.5rem !important;
+    page-break-inside: avoid !important;
     box-shadow: none !important;
   }
 
-  .print\:border-0 {
-    border: none !important;
+  /* Experience section specific */
+  section:has(h2:contains('Berufserfahrung')) .card {
+    border-left: 2px solid rgb(59 130 246) !important;
   }
 
-  .print\:p-0 {
-    padding: 0 !important;
+  /* Ensure text stays on one line */
+  p,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span,
+  a {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  /* Preserve badge styling */
+  .badge {
+    background-color: #f3f4f6 !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 9999px !important;
+    padding: 0.25rem 0.75rem !important;
+    font-size: 0.75rem !important;
+    color: #374151 !important;
+  }
+
+  .badge[variant='outline'] {
+    background-color: transparent !important;
+    border: 1px solid #6b7280 !important;
+    color: #374151 !important;
+  }
+
+  .badge[variant='secondary'] {
+    background-color: #f3f4f6 !important;
+    color: #374151 !important;
+  }
+
+  /* Preserve text styling */
+  h1 {
+    font-size: 1.875rem !important;
+    font-weight: 700 !important;
+    color: #111827 !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.25rem !important;
+    font-weight: 600 !important;
+    color: #111827 !important;
+    border-bottom: 1px solid #e5e7eb !important;
+    padding-bottom: 0.5rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  h3.text-primary {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: rgb(59 130 246) !important;
+  }
+
+  /* Preserve spacing */
+  .space-y-6>* {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .space-y-4>* {
+    margin-bottom: 1rem !important;
+  }
+
+  .space-y-2>* {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .space-y-1>* {
+    margin-bottom: 0.25rem !important;
+  }
+
+  /* Preserve grid layout */
+  .grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 1.5rem !important;
+  }
+
+  /* Preserve flex layouts */
+  .flex {
+    display: flex !important;
+  }
+
+  .flex-1 {
+    flex: 1 1 0% !important;
+  }
+
+  .items-start {
+    align-items: flex-start !important;
+  }
+
+  .justify-between {
+    justify-content: space-between !important;
+  }
+
+  /* Preserve image styling */
+  .rounded-full {
+    border-radius: 9999px !important;
+  }
+
+  .bg-gradient-to-r {
+    background: linear-gradient(to right, #3b82f6, #06b6d4) !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .border-white {
+    border: 4px solid white !important;
+  }
+
+  /* Preserve list styling */
+  ul.space-y-1 {
+    list-style-type: none !important;
+    padding-left: 0 !important;
+  }
+
+  ul.space-y-1 li {
+    color: #374151 !important;
+    font-size: 0.875rem !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Preserve text colors */
+  .text-gray-600 {
+    color: #4b5563 !important;
+  }
+
+  .text-gray-700 {
+    color: #374151 !important;
+  }
+
+  .text-gray-500 {
+    color: #6b7280 !important;
+  }
+
+  /* Projects section specific */
+  section:has(h2:contains('Projekte')) {
+    page-break-before: auto !important;
+  }
+
+  /* Ensure proper spacing between project entries */
+  section:has(h2:contains('Projekte')) .space-y-4>.card {
+    margin-bottom: 1.25rem !important;
+  }
+
+  /* Project technology badges */
+  section:has(h2:contains('Projekte')) .badge[variant='secondary'] {
+    background-color: #f3f4f6 !important;
+    border: 1px solid #e5e7eb !important;
+    color: #374151 !important;
+    margin-right: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+
+  /* Force background colors and images */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 }
-

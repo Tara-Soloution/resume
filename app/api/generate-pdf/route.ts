@@ -1,19 +1,25 @@
-import { type NextRequest, NextResponse } from "next/server"
-// Note: In a real implementation, you would use a library like puppeteer or @react-pdf/renderer
-// This is a placeholder for the PDF generation functionality
+import { NextResponse } from "next/server";
+import { renderToBuffer } from "@react-pdf/renderer";
+import ResumePDF from "@/components/ResumePDF";
 
-export async function POST(request: NextRequest) {
+export async function GET() {
   try {
-    // In a real implementation, this would generate a PDF from the resume
-    // For now, we'll just return a success message
+    // Generate PDF
+    const pdfBuffer = await renderToBuffer(ResumePDF());
 
-    return NextResponse.json({
-      success: true,
-      message: "PDF generation would happen here in a real implementation",
-    })
+    // Return PDF with appropriate headers
+    return new NextResponse(pdfBuffer, {
+      headers: {
+        "Content-Type": "application/pdf",
+        "Content-Disposition": "attachment; filename=resume.pdf",
+      },
+    });
   } catch (error) {
-    console.error("Error generating PDF:", error)
-    return NextResponse.json({ success: false, error: "Failed to generate PDF" }, { status: 500 })
+    console.error("Error generating PDF:", error);
+    return NextResponse.json(
+      { success: false, error: "Failed to generate PDF" },
+      { status: 500 }
+    );
   }
 }
 
