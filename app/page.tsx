@@ -33,10 +33,10 @@ export default function Resume() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 print:max-w-none print:px-0 print:py-0 print:aspect-[1/1.4142] print:w-[210mm] print:h-[297mm]">
         {/* Header Section with decorative elements */}
         <div className="relative mb-5 pb-5 border-b border-gray-100">
-          {/* Decorative elements */}
-          <div className="absolute top-0 right-0 w-64 h-64 opacity-5">
-            <div className="absolute top-0 right-0 w-32 h-32 border-t-2 border-r-2 border-gray-800"></div>
-            <div className="absolute bottom-0 left-0 w-32 h-32 border-b-2 border-l-2 border-gray-800"></div>
+          {/* Decorative elements - removing or adjusting */}
+          <div className="absolute top-0 right-0 w-64 h-64 opacity-0">
+            <div className="absolute top-0 right-0 w-32 h-32"></div>
+            <div className="absolute bottom-0 left-0 w-32 h-32"></div>
           </div>
 
           <div className="flex items-start justify-between relative z-10">
@@ -85,7 +85,7 @@ export default function Resume() {
                 />
               </div>
               <div className="relative w-28 h-28">
-                <div className="absolute inset-0 rounded-lg overflow-hidden border border-gray-100">
+                <div className="absolute inset-0 rounded-lg overflow-hidden">
                   <img
                     src="/profile/abbas.jpg"
                     alt="Profilbild"
@@ -458,7 +458,7 @@ export default function Resume() {
             {/* Skills Section - Reorganized for ATS */}
             <section className="mt-4">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">TECHNISCHE FÄHIGKEITEN</h2>
-              <div className="space-y-2">
+              <div className="space-y-4">
                 <div>
                   <h3 className="text-xs font-bold text-gray-700 mb-1">Programmiersprachen:</h3>
                   <div className="flex flex-wrap gap-1">
@@ -469,7 +469,8 @@ export default function Resume() {
                     ))}
                   </div>
                 </div>
-                <div>
+
+                <div className="mt-4">
                   <h3 className="text-xs font-bold text-gray-700 mb-1">Frameworks & Bibliotheken:</h3>
                   <div className="flex flex-wrap gap-1">
                     {['React.js', 'Next.js', 'Node.js', 'NestJS', 'Express.js', 'React Native', 'Django'].map((skill) => (
@@ -479,7 +480,8 @@ export default function Resume() {
                     ))}
                   </div>
                 </div>
-                <div>
+
+                <div className="mt-4">
                   <h3 className="text-xs font-bold text-gray-700 mb-1">Datenbanken & Storage:</h3>
                   <div className="flex flex-wrap gap-1">
                     {['PostgreSQL', 'MongoDB', 'MySQL', 'Redis', 'ElasticSearch'].map((skill) => (
@@ -489,7 +491,8 @@ export default function Resume() {
                     ))}
                   </div>
                 </div>
-                <div>
+
+                <div className="mt-4">
                   <h3 className="text-xs font-bold text-gray-700 mb-1">Cloud & DevOps:</h3>
                   <div className="flex flex-wrap gap-1">
                     {['AWS', 'GCP', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'GitHub Actions'].map((skill) => (
@@ -499,7 +502,8 @@ export default function Resume() {
                     ))}
                   </div>
                 </div>
-                <div>
+
+                <div className="mt-4">
                   <h3 className="text-xs font-bold text-gray-700 mb-1">Architektur & Methoden:</h3>
                   <div className="flex flex-wrap gap-1">
                     {['Microservices', 'RESTful APIs', 'GraphQL', 'Event-Driven Architecture', 'Agile/Scrum', 'TDD'].map((skill) => (
@@ -545,12 +549,12 @@ export default function Resume() {
                 <div className="flex justify-between items-center">
                   <div>
                     <span className="font-medium text-xs">Deutsch</span>
-                    <span className="text-xs text-gray-600 ml-2">(Fortgeschritten - B2)</span>
+                    <span className="text-xs text-gray-600 ml-2">(Grundkenntnisse - B1)</span>
                   </div>
                   <div className="flex gap-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
                     <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
                     <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
                     <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
                   </div>
