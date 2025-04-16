@@ -116,11 +116,11 @@ export default function Resume() {
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gray-800 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-1.5">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-gray-900 transition-colors">Technischer Geschäftsführer (CTO)</h3>
-                  <div className="text-gray-700 font-medium text-xs mb-0.5">Tara Solutions Inc., Kabul</div>
+                  <div className="text-gray-700 font-medium text-xs mb-0.5">Tara Solutions Inc, Kabul</div>
                   <div className="flex justify-between text-gray-600 mb-1">
                     <span className="flex items-center bg-gray-100 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">🗓</span>
-                      <span className="font-medium">01/2024 - Heute</span>
+                      <span className="font-medium">01/2023 - Heute</span>
                     </span>
                     <span className="flex items-center bg-gray-100 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">📍</span>
@@ -143,6 +143,14 @@ export default function Resume() {
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">▹</span>
                       <span className="leading-tight"><span className="font-bold">Architektur und strategische Planung</span> von <span className="font-semibold">Microservices</span> und <span className="font-semibold">Cloud-Infrastrukturen</span></span>
+                    </li>
+                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
+                      <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">▹</span>
+                      <span className="leading-tight"><span className="font-bold">Entwicklung und Umsetzung</span> der technischen Vision und Strategie für das Unternehmen</span>
+                    </li>
+                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
+                      <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">▹</span>
+                      <span className="leading-tight"><span className="font-bold">Leitung und Mentoring</span> eines internationalen Entwicklungsteams mit Fokus auf <span className="font-semibold">Agile Methoden</span> und <span className="font-semibold">Continuous Integration/Deployment</span></span>
                     </li>
                   </ul>
                 </div>
@@ -248,7 +256,7 @@ export default function Resume() {
               </div>
 
               {/* IAP Position */}
-              <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
+              <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300 break-before-page">
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-1.5">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">Junior Web-Entwickler</h3>
@@ -563,7 +571,7 @@ export default function Resume() {
             </section>
 
             {/* Awards Section - Moved below Skills */}
-            <section className="mt-8">
+            <section className="mt-8 break-before-page">
               <h2 className="text-base font-bold border-b pb-1 mb-3 text-gray-800">AUSZEICHNUNGEN</h2>
               <div className="space-y-3">
                 <div className="group bg-gray-50 p-2 rounded-lg hover:bg-gray-100 transition-colors">
