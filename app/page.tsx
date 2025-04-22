@@ -49,7 +49,7 @@ export default function Resume() {
               </div>
 
               <h2 className="text-lg font-medium text-gray-700 pl-1">
-                Senior Frontend Entwicklerin | Full Stack Ingenieurin
+                Senior Frontend-Entwicklerin | Full-Stack-Ingenieurin
               </h2>
 
               <div className="space-y-1.5 text-gray-600 text-xs pl-1">
@@ -116,11 +116,11 @@ export default function Resume() {
         {/* Summary Section - Enhanced for ATS */}
         <div className="mt-2 mb-8 bg-gray-50 p-4 rounded-lg border border-gray-100">
           <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-            ZUSAMMENFASSUNG
+            PROFESSIONELLE ZUSAMMENFASSUNG
           </h2>
           <p className="text-xs text-gray-600">
             <span className="font-medium">
-              Erfahrene Full-Stack Entwicklerin
+              Erfahrene Full-Stack-Entwicklerin
             </span>{" "}
             mit fundierter Expertise in{" "}
             <span className="font-semibold">
@@ -132,8 +132,8 @@ export default function Resume() {
             <span className="font-semibold">Node.js</span>. Nachgewiesener
             Erfolg bei der Entwicklung skalierbarer Webanwendungen und der
             Implementierung benutzerfreundlicher Schnittstellen. Erfahrung in
-            technischer Leitung und Projektkoordination mit Fokus auf Clean Code
-            und Best Practices.
+            technischer Leitung und Projektkoordination mit Fokus auf sauberen
+            Code und Best Practices.
           </p>
         </div>
 
@@ -150,7 +150,7 @@ export default function Resume() {
                 <div className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-gray-800 to-gray-600 rounded-l-md opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-2">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-gray-900 transition-colors">
-                    Frontend Web Entwicklerin
+                    Frontend-Web-Entwicklerin
                   </h3>
                   <div className="text-gray-700 font-medium text-xs mb-1">
                     Tara Solutions Inc, Kabul
@@ -162,7 +162,7 @@ export default function Resume() {
                     </span>
                     <span className="flex items-center bg-gray-100/80 px-2 py-0.5 rounded text-xs">
                       <span className="mr-1">📍</span>
-                      <span className="font-medium">Remote</span>
+                      <span className="font-medium">Fernarbeit</span>
                     </span>
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs pl-0.5">
@@ -227,7 +227,7 @@ export default function Resume() {
                 <div className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-blue-600 to-blue-400 rounded-l-md opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-2">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Full-Stack Entwicklerin
+                    Full-Stack-Entwicklerin
                   </h3>
                   <div className="text-blue-600 font-medium text-xs mb-1">
                     Listoli LLC, USA
@@ -239,7 +239,7 @@ export default function Resume() {
                     </span>
                     <span className="flex items-center bg-blue-50/80 px-2 py-0.5 rounded text-xs">
                       <span className="mr-1">📍</span>
-                      <span className="font-medium">Remote</span>
+                      <span className="font-medium">Fernarbeit</span>
                     </span>
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs pl-0.5">
@@ -299,7 +299,7 @@ export default function Resume() {
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-l opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-2">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Full-Stack Entwicklerin
+                    Full-Stack-Entwicklerin
                   </h3>
                   <div className="text-blue-600 font-medium text-xs mb-1">
                     Smart Fariqi (Teebalhoor), Kabul
@@ -486,7 +486,7 @@ export default function Resume() {
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-l opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-2">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Web Entwicklerin
+                    Web-Entwicklerin
                   </h3>
                   <div className="text-blue-600 font-medium text-xs mb-1">
                     Bassoft IT Services Company, Kabul
@@ -541,13 +541,13 @@ export default function Resume() {
             {/* Education Section */}
             <section className="mt-4">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                BILDUNG
+                AUSBILDUNG
               </h2>
               <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-1.5">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Master in Data Science
+                    Master in Datenwissenschaft
                   </h3>
                   <div className="text-blue-600 font-medium text-xs mb-0.5">
                     University of Europe for Applied Sciences
@@ -695,7 +695,7 @@ export default function Resume() {
               <div className="space-y-2">
                 <div>
                   <h3 className="text-xs font-bold text-gray-700 mb-1">
-                    Frontend Entwicklung:
+                    Frontend-Entwicklung:
                   </h3>
                   <div className="flex flex-wrap gap-1">
                     {[
@@ -719,7 +719,7 @@ export default function Resume() {
 
                 <div className="mt-2">
                   <h3 className="text-xs font-bold text-gray-700 mb-1">
-                    Backend Entwicklung:
+                    Backend-Entwicklung:
                   </h3>
                   <div className="flex flex-wrap gap-1">
                     {[
@@ -909,7 +909,7 @@ export default function Resume() {
                     <span className="text-blue-500 mr-2 text-base">🏢</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">
-                        Enterprise Management Suite
+                        Enterprise-Management-Suite
                       </span>
                       <p className="text-xs text-gray-600 leading-tight mt-0.5">
                         Eine umfassende{" "}
