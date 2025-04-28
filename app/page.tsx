@@ -92,13 +92,13 @@ export default function Resume() {
             </div>
 
             <div className="flex items-start gap-2">
-              <div className="w-16 h-16 bg-white p-1.5 rounded-lg shadow-sm border border-gray-100">
+              <div className="w-24 h-24 bg-white p-1.5 rounded-lg shadow-sm border border-gray-100">
                 <img
-                  src={`https://api.qrserver.com/v1/create-qr-code/?size=64x64&data=${encodeURIComponent(
+                  src={`https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=${encodeURIComponent(
                     "https://ataie.me"
-                  )}`}
+                  )}&qzone=2&margin=0&format=png&ecc=M`}
                   alt="QR Code"
-                  className="w-full h-full"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="relative w-28 h-28">
