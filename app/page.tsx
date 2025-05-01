@@ -993,6 +993,28 @@ export default function Resume() {
                     <span className="text-blue-500 mr-2 text-base">🏆</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">
+                        Certified Micro Developer
+                      </span>
+                      <p className="text-xs text-gray-600 leading-tight mt-1">
+                        Certified by micro1.ai - World's best AI Recruiter for
+                        technical excellence and software engineering expertise
+                      </p>
+                      <div className="mt-2">
+                        <img
+                          src="/micro1.jpg"
+                          alt="Micro1 Certification"
+                          className="w-full h-auto rounded-lg shadow-sm"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="group bg-gray-50 p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                  <div className="text-xs text-gray-700 flex items-start">
+                    <span className="text-blue-500 mr-2 text-base">🏆</span>
+                    <div className="flex-1">
+                      <span className="font-bold group-hover:text-blue-600 transition-colors">
                         Asia Kabul Regional ACM/ICPC Competition 2018
                       </span>
                       <p className="text-xs text-gray-600 leading-tight mt-1">
