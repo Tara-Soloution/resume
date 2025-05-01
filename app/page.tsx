@@ -95,7 +95,7 @@ export default function Resume() {
               <div className="w-16 h-16 bg-white p-1.5 rounded-lg shadow-sm border border-gray-100">
                 <img
                   src={`https://api.qrserver.com/v1/create-qr-code/?size=64x64&data=${encodeURIComponent(
-                    "https://www.tarasolutions.cloud/about/team/abbas"
+                    "https://www.ataie.me"
                   )}`}
                   alt="QR Code"
                   className="w-full h-full"
