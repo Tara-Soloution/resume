@@ -769,19 +769,6 @@ export default function Resume() {
                 </div>
               </div>
             </section>
-
-            {/* References Section */}
-            <section className="mt-4 mb-6">
-              <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                REFERENCES
-              </h2>
-              <p className="text-xs text-gray-600">
-                References are available upon request. Please feel free to
-                contact me for additional details or professional
-                recommendations from previous employers, colleagues, or academic
-                mentors.
-              </p>
-            </section>
           </div>
 
           {/* Right Column */}
@@ -796,23 +783,28 @@ export default function Resume() {
                   <h3 className="text-xs font-bold text-gray-700 mb-1">
                     Programming Languages:
                   </h3>
-                  <div className="flex flex-wrap gap-1">
-                    {[
-                      "Node.js",
-                      "JavaScript",
-                      "TypeScript",
-                      "Python",
-                      "PHP",
-                      "Go",
-                      "Java",
-                    ].map((skill) => (
-                      <span
-                        key={skill}
-                        className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
-                      >
-                        {skill}
-                      </span>
-                    ))}
+                  <div className="text-xs text-gray-600 leading-relaxed">
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Node.js
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      JavaScript
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      TypeScript
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Python
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      PHP
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Go
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded">
+                      Java
+                    </span>
                   </div>
                 </div>
 
@@ -820,26 +812,37 @@ export default function Resume() {
                   <h3 className="text-xs font-bold text-gray-700 mb-1">
                     Frameworks & Libraries:
                   </h3>
-                  <div className="flex flex-wrap gap-1">
-                    {[
-                      "React.js",
-                      "Next.js",
-                      "Node.js",
-                      "NestJS",
-                      "Express.js",
-                      "React Native",
-                      "Django",
-                      "FastAPI",
-                      "Flask",
-                      "Laravel",
-                    ].map((skill) => (
-                      <span
-                        key={skill}
-                        className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
-                      >
-                        {skill}
-                      </span>
-                    ))}
+                  <div className="text-xs text-gray-600 leading-relaxed">
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      React.js
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Next.js
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Node.js
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      NestJS
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Express.js
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      React Native
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Django
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      FastAPI
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Flask
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded">
+                      Laravel
+                    </span>
                   </div>
                 </div>
 
@@ -847,22 +850,25 @@ export default function Resume() {
                   <h3 className="text-xs font-bold text-gray-700 mb-1">
                     Databases & Storage:
                   </h3>
-                  <div className="flex flex-wrap gap-1">
-                    {[
-                      "PostgreSQL",
-                      "MongoDB",
-                      "MariaDB",
-                      "MySQL",
-                      "Redis",
-                      "ElasticSearch",
-                    ].map((skill) => (
-                      <span
-                        key={skill}
-                        className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
-                      >
-                        {skill}
-                      </span>
-                    ))}
+                  <div className="text-xs text-gray-600 leading-relaxed">
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      PostgreSQL
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      MongoDB
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      MariaDB
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      MySQL
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Redis
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded">
+                      ElasticSearch
+                    </span>
                   </div>
                 </div>
 
@@ -870,24 +876,31 @@ export default function Resume() {
                   <h3 className="text-xs font-bold text-gray-700 mb-1">
                     Cloud & DevOps:
                   </h3>
-                  <div className="flex flex-wrap gap-1">
-                    {[
-                      "AWS",
-                      "GCP",
-                      "Docker",
-                      "Kubernetes",
-                      "CI/CD",
-                      "Git",
-                      "GitHub Actions",
-                      "Nomad",
-                    ].map((skill) => (
-                      <span
-                        key={skill}
-                        className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
-                      >
-                        {skill}
-                      </span>
-                    ))}
+                  <div className="text-xs text-gray-600 leading-relaxed">
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      AWS
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      GCP
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Docker
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Kubernetes
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      CI/CD
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Git
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      GitHub Actions
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded">
+                      Nomad
+                    </span>
                   </div>
                 </div>
 
@@ -895,28 +908,43 @@ export default function Resume() {
                   <h3 className="text-xs font-bold text-gray-700 mb-1">
                     Architecture & Methods:
                   </h3>
-                  <div className="flex flex-wrap gap-1">
-                    {[
-                      "Microservices",
-                      "RESTful APIs",
-                      "GraphQL",
-                      "Event-Driven Architecture",
-                      "Agile/Scrum",
-                      "TDD",
-                      "DDD",
-                      "Clean Architecture",
-                      "SOLID Principles",
-                      "Design Patterns",
-                      "Object-Oriented Programming",
-                      "Functional Programming",
-                    ].map((skill) => (
-                      <span
-                        key={skill}
-                        className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
-                      >
-                        {skill}
-                      </span>
-                    ))}
+                  <div className="text-xs text-gray-600 leading-relaxed">
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Microservices
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      RESTful APIs
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      GraphQL
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Event-Driven Architecture
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Agile/Scrum
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      TDD
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      DDD
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Clean Architecture
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      SOLID Principles
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Design Patterns
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Object-Oriented Programming
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded">
+                      Functional Programming
+                    </span>
                   </div>
                 </div>
               </div>
