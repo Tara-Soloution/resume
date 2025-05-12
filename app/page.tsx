@@ -977,7 +977,7 @@ export default function Resume() {
                     <span className="font-medium text-xs">Dari</span>
                     <span className="text-xs text-gray-600 ml-2">(Native)</span>
                   </div>
-                  <div className="flex gap-1">
+                  <div className="flex gap-1 print:mr-3">
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
@@ -992,7 +992,7 @@ export default function Resume() {
                       (Fluent - C1)
                     </span>
                   </div>
-                  <div className="flex gap-1">
+                  <div className="flex gap-1  print:mr-3">
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
@@ -1007,7 +1007,7 @@ export default function Resume() {
                       (Basic - A2)
                     </span>
                   </div>
-                  <div className="flex gap-1">
+                  <div className="flex gap-1  print:mr-3">
                     <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
                     <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
                     <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
