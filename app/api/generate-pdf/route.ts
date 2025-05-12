@@ -115,7 +115,7 @@ export async function GET() {
     return new Response(pdf, {
       headers: {
         "Content-Type": "application/pdf",
-        "Content-Disposition": "attachment; filename=resume.pdf",
+        "Content-Disposition": "attachment; filename=Lebenslauf.pdf",
         "X-PDF-Standard": "PDF/A-1b",
         "X-PDF-Version": "1.7",
         "X-PDF-Text-Layer": "enabled",
