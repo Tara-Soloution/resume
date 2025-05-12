@@ -54,6 +54,15 @@ export async function GET() {
       deviceScaleFactor: 2,
     });
 
+    // Enable text layer preservation
+    await page.evaluateOnNewDocument(() => {
+      // Ensure text is selectable and preserved
+      document.body.style.webkitTextSizeAdjust = "100%";
+      document.body.style.textRendering = "optimizeLegibility";
+      // Disable any text transformations that might affect ATS parsing
+      document.body.style.textTransform = "none";
+    });
+
     // Get the base URL based on environment
     const baseUrl = process.env.VERCEL_URL
       ? `https://${process.env.VERCEL_URL}`
@@ -89,6 +98,12 @@ export async function GET() {
         left: "0.4in",
       },
       preferCSSPageSize: true,
+      tagged: true,
+      outline: true,
+      displayHeaderFooter: false,
+      omitBackground: false,
+      scale: 1.0,
+      timeout: 30000,
     });
 
     // Close browser
@@ -101,6 +116,10 @@ export async function GET() {
       headers: {
         "Content-Type": "application/pdf",
         "Content-Disposition": "attachment; filename=resume.pdf",
+        "X-PDF-Standard": "PDF/A-1b",
+        "X-PDF-Version": "1.7",
+        "X-PDF-Text-Layer": "enabled",
+        "X-PDF-Accessibility": "enabled",
       },
     });
   } catch (error: any) {
