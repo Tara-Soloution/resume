@@ -47,45 +47,32 @@ export default function Resume() {
                 </h1>
                 <div className="absolute -bottom-2 left-0 w-24 h-1 bg-blue-600"></div>
               </div>
-
               <h2 className="text-lg font-medium text-gray-700 pl-1">
                 Senior Software Developer | Full Stack Engineer | Cloud
                 Architect
               </h2>
-
               <div className="space-y-1.5 text-gray-600 text-xs pl-1">
                 <div className="flex flex-wrap items-center gap-3">
-                  <span className="flex items-center gap-1.5">
-                    <span className="text-blue-600">📞</span>
-                    <span>+989912906146</span>
-                  </span>
-                  <span className="flex items-center gap-1.5">
-                    <span className="text-blue-600">📧</span>
-                    <span>abbas.ataie.montazer@gmail.com</span>
-                  </span>
-                  <span className="flex items-center gap-1.5">
-                    <span className="text-blue-600">📍</span>
-                    <span>Tehran, Iran</span>
-                  </span>
+                  <span>Phone: +98-9912906146</span>
+                  <span>Email: abbas.ataie.montazer@gmail.com</span>
+                  <span>Location: Tehran, Iran</span>
                 </div>
                 <div className="flex flex-wrap items-center gap-3">
                   <a
                     href="https://github.com/abbasatayee"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 hover:text-blue-600 transition-colors"
+                    className="hover:text-blue-600 transition-colors"
                   >
-                    <span className="text-blue-600">🔗</span>
-                    <span>github.com/abbasatayee</span>
+                    GitHub: github.com/abbasatayee
                   </a>
                   <a
                     href="https://linkedin.com/in/abbas-ataie-72a4431b9"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 hover:text-blue-600 transition-colors"
+                    className="hover:text-blue-600 transition-colors"
                   >
-                    <span className="text-blue-600">💼</span>
-                    <span>linkedin.com/in/abbas-ataie-72a4431b9</span>
+                    LinkedIn: linkedin.com/in/abbas-ataie-72a4431b9
                   </a>
                 </div>
               </div>
@@ -138,6 +125,16 @@ export default function Resume() {
             solutions. Currently CTO at Tara Solutions with focus on innovative
             cloud solutions and enterprise architecture.
           </p>
+          {/* Core Competencies Section (now inside summary) */}
+          <div className="mt-3">
+            <h3 className="text-xs font-bold text-gray-800 mb-1">
+              Core Competencies:
+            </h3>
+            <p className="text-xs text-gray-700">
+              Full-Stack Web Development, Microservices, TypeScript, React.js,
+              Node.js, CI/CD
+            </p>
+          </div>
         </div>
 
         <div className="mt-6 grid grid-cols-3 gap-4">
@@ -161,7 +158,7 @@ export default function Resume() {
                   <div className="flex justify-between text-gray-600 mb-1">
                     <span className="flex items-center bg-gray-100 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">🗓</span>
-                      <span className="font-medium">01/2023 - Present</span>
+                      <span className="font-medium">01/2023 – Present</span>
                     </span>
                     <span className="flex items-center bg-gray-100 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">📍</span>
@@ -171,7 +168,7 @@ export default function Resume() {
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
@@ -185,7 +182,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">Strategic Partnership</span>{" "}
@@ -197,7 +194,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
@@ -212,7 +209,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
@@ -227,7 +224,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
@@ -238,7 +235,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
@@ -268,7 +265,7 @@ export default function Resume() {
                   <div className="flex justify-between text-gray-600 mb-1">
                     <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">🗓</span>
-                      <span className="font-medium">10/2022 - 12/2023</span>
+                      <span className="font-medium">10/2022 – 12/2023</span>
                     </span>
                     <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">📍</span>
@@ -278,7 +275,7 @@ export default function Resume() {
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
@@ -293,7 +290,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
@@ -306,7 +303,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">CI/CD Automation</span> with{" "}
@@ -334,7 +331,7 @@ export default function Resume() {
                   <div className="flex justify-between text-gray-600 mb-1">
                     <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">🗓</span>
-                      <span className="font-medium">06/2021 - 09/2022</span>
+                      <span className="font-medium">06/2021 – 09/2022</span>
                     </span>
                     <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">📍</span>
@@ -344,7 +341,7 @@ export default function Resume() {
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">
@@ -355,7 +352,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">
@@ -366,7 +363,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">
@@ -392,7 +389,7 @@ export default function Resume() {
                   <div className="flex justify-between text-gray-600 mb-1">
                     <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">🗓</span>
-                      <span className="font-medium">02/2021 - 07/2021</span>
+                      <span className="font-medium">02/2021 – 07/2021</span>
                     </span>
                     <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">📍</span>
@@ -402,7 +399,7 @@ export default function Resume() {
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">
@@ -414,7 +411,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">
@@ -426,7 +423,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">
@@ -452,7 +449,7 @@ export default function Resume() {
                   <div className="flex justify-between text-gray-600 mb-1">
                     <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">🗓</span>
-                      <span className="font-medium">02/2020 - 04/2020</span>
+                      <span className="font-medium">02/2020 – 04/2020</span>
                     </span>
                     <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">📍</span>
@@ -462,7 +459,7 @@ export default function Resume() {
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">
@@ -474,7 +471,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">Web Development</span>{" "}
@@ -484,7 +481,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">
@@ -495,7 +492,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">Hands-on Experience</span>{" "}
@@ -525,13 +522,13 @@ export default function Resume() {
                   <div className="flex text-gray-600 mb-1">
                     <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">🗓</span>
-                      <span className="font-medium">03/2025 - Present</span>
+                      <span className="font-medium">03/2025 – Present</span>
                     </span>
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
@@ -542,7 +539,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">Core Subjects:</span>{" "}
@@ -554,7 +551,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">Specialization:</span>{" "}
@@ -565,7 +562,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
@@ -592,13 +589,13 @@ export default function Resume() {
                   <div className="flex text-gray-600 mb-1">
                     <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
                       <span className="mr-1">🗓</span>
-                      <span className="font-medium">03/2016 - 08/2019</span>
+                      <span className="font-medium">03/2016 – 08/2019</span>
                     </span>
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">
@@ -608,7 +605,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">
@@ -619,7 +616,7 @@ export default function Resume() {
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
                       <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
+                        •
                       </span>
                       <span className="leading-tight">
                         <span className="font-medium">Focus Areas:</span>{" "}
@@ -639,7 +636,7 @@ export default function Resume() {
               <div className="space-y-2">
                 <div className="group">
                   <div className="text-xs text-gray-700 flex items-start">
-                    <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                    <span className="text-blue-500 mr-1.5 font-bold">•</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">
                         Cloud Station Platform
@@ -685,7 +682,7 @@ export default function Resume() {
                 </div>
                 <div className="group">
                   <div className="text-xs text-gray-700 flex items-start">
-                    <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                    <span className="text-blue-500 mr-1.5 font-bold">•</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">
                         5th Wave
@@ -736,7 +733,7 @@ export default function Resume() {
 
                 <div className="group">
                   <div className="text-xs text-gray-700 flex items-start">
-                    <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                    <span className="text-blue-500 mr-1.5 font-bold">•</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">
                         Tara Solutions Cloud
@@ -784,7 +781,7 @@ export default function Resume() {
                 </div>
                 <div className="group">
                   <div className="text-xs text-gray-700 flex items-start">
-                    <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                    <span className="text-blue-500 mr-1.5 font-bold">•</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">
                         Plant Disease Detection System
@@ -967,7 +964,7 @@ export default function Resume() {
             </section>
 
             {/* Languages Section */}
-            <section className="mt-6">
+            <section className="mt-6 print:break-inside-avoid">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
                 LANGUAGES
               </h2>
@@ -975,45 +972,26 @@ export default function Resume() {
                 <div className="flex justify-between items-center">
                   <div>
                     <span className="font-medium text-xs">Dari</span>
-                    <span className="text-xs text-gray-600 ml-2">(Native)</span>
                   </div>
-                  <div className="flex gap-1 print:mr-3">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                  </div>
+                  <span className="text-xs font-semibold text-blue-700">
+                    Native
+                  </span>
                 </div>
                 <div className="flex justify-between items-center">
                   <div>
                     <span className="font-medium text-xs">English</span>
-                    <span className="text-xs text-gray-600 ml-2">
-                      (Fluent - C1)
-                    </span>
                   </div>
-                  <div className="flex gap-1  print:mr-3">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                  </div>
+                  <span className="text-xs font-semibold text-blue-700">
+                    Fluent (C1)
+                  </span>
                 </div>
                 <div className="flex justify-between items-center">
                   <div>
                     <span className="font-medium text-xs">German</span>
-                    <span className="text-xs text-gray-600 ml-2">
-                      (Basic - A2)
-                    </span>
                   </div>
-                  <div className="flex gap-1  print:mr-3">
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                  </div>
+                  <span className="text-xs font-semibold text-blue-700">
+                    Basic (A2)
+                  </span>
                 </div>
               </div>
             </section>
