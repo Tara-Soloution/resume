@@ -43,7 +43,7 @@ export default function Resume() {
             <div className="flex-1 space-y-2 pt-2">
               <div className="relative">
                 <h1 className="text-3xl font-bold text-gray-900 tracking-tight">
-                  GHULAM ABBAS ATAIE
+                  Ghulam Abbas Ataie | Software Engineer
                 </h1>
                 <div className="absolute -bottom-2 left-0 w-24 h-1 bg-blue-600"></div>
               </div>
@@ -132,7 +132,7 @@ export default function Resume() {
             </h3>
             <p className="text-xs text-gray-700">
               Full-Stack Web Development, Microservices, TypeScript, React.js,
-              Node.js, CI/CD
+              Node.js, CI/CD, Cloud Solutions, Agile/Scrum, Technical Leadership
             </p>
           </div>
         </div>
@@ -155,15 +155,8 @@ export default function Resume() {
                   <div className="text-gray-700 font-medium text-xs mb-0.5">
                     Tara Solutions Inc, Kabul
                   </div>
-                  <div className="flex justify-between text-gray-600 mb-1">
-                    <span className="flex items-center bg-gray-100 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">🗓</span>
-                      <span className="font-medium">01/2023 – Present</span>
-                    </span>
-                    <span className="flex items-center bg-gray-100 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">📍</span>
-                      <span className="font-medium">Remote</span>
-                    </span>
+                  <div className="text-xs text-gray-600 font-medium mb-1">
+                    Jan 2023 – Present | Remote
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -262,15 +255,8 @@ export default function Resume() {
                   <div className="text-blue-600 font-medium text-xs mb-0.5">
                     Listoli LLC, USA
                   </div>
-                  <div className="flex justify-between text-gray-600 mb-1">
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">🗓</span>
-                      <span className="font-medium">10/2022 – 12/2023</span>
-                    </span>
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">📍</span>
-                      <span className="font-medium">Remote</span>
-                    </span>
+                  <div className="text-xs text-gray-600 font-medium mb-1">
+                    Oct 2022 – Dec 2023 | Remote
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -328,15 +314,8 @@ export default function Resume() {
                   <div className="text-blue-600 font-medium text-xs mb-0.5">
                     Click.af, Kabul
                   </div>
-                  <div className="flex justify-between text-gray-600 mb-1">
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">🗓</span>
-                      <span className="font-medium">06/2021 – 09/2022</span>
-                    </span>
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">📍</span>
-                      <span className="font-medium">On-site</span>
-                    </span>
+                  <div className="text-xs text-gray-600 font-medium mb-1">
+                    Jun 2021 – Sep 2022 | On-site
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -386,15 +365,8 @@ export default function Resume() {
                   <div className="text-blue-600 font-medium text-xs mb-0.5">
                     BlueBit Networking Services, Kabul
                   </div>
-                  <div className="flex justify-between text-gray-600 mb-1">
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">🗓</span>
-                      <span className="font-medium">02/2021 – 07/2021</span>
-                    </span>
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">📍</span>
-                      <span className="font-medium">On-site</span>
-                    </span>
+                  <div className="text-xs text-gray-600 font-medium mb-1">
+                    Feb 2021 – Jul 2021 | On-site
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -446,15 +418,8 @@ export default function Resume() {
                   <div className="text-blue-600 font-medium text-xs mb-0.5">
                     IAP, Kabul
                   </div>
-                  <div className="flex justify-between text-gray-600 mb-1">
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">🗓</span>
-                      <span className="font-medium">02/2020 – 04/2020</span>
-                    </span>
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">📍</span>
-                      <span className="font-medium">On-site</span>
-                    </span>
+                  <div className="text-xs text-gray-600 font-medium mb-1">
+                    Feb 2020 – Apr 2020 | On-site
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -519,11 +484,8 @@ export default function Resume() {
                   <div className="text-blue-600 font-medium text-xs mb-0.5">
                     University of Europe for Applied Sciences
                   </div>
-                  <div className="flex text-gray-600 mb-1">
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">🗓</span>
-                      <span className="font-medium">03/2025 – Present</span>
-                    </span>
+                  <div className="text-xs text-gray-600 font-medium mb-1">
+                    Mar 2025 – Present
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -586,11 +548,8 @@ export default function Resume() {
                   <div className="text-blue-600 font-medium text-xs mb-0.5">
                     Kabul Polytechnic University
                   </div>
-                  <div className="flex text-gray-600 mb-1">
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">🗓</span>
-                      <span className="font-medium">03/2016 – 08/2019</span>
-                    </span>
+                  <div className="text-xs text-gray-600 font-medium mb-1">
+                    Mar 2016 – Aug 2019
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -631,7 +590,7 @@ export default function Resume() {
             {/* Projects Section - Adjusted position */}
             <section className="mt-4">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                PROJECTS
+                Key Projects
               </h2>
               <div className="space-y-2">
                 <div className="group">
@@ -830,7 +789,7 @@ export default function Resume() {
             {/* Skills Section - Reorganized for ATS */}
             <section className="mt-4">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                TECHNICAL SKILLS
+                Technical Skills
               </h2>
               <div className="space-y-4">
                 <div>
