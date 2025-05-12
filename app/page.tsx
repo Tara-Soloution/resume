@@ -59,6 +59,14 @@ export default function Resume() {
                 </div>
                 <div className="flex flex-wrap items-center gap-3">
                   <a
+                    href="https://www.ataie.me"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-600 transition-colors"
+                  >
+                    Portfolio: www.ataie.me
+                  </a>
+                  <a
                     href="https://github.com/abbasatayee"
                     target="_blank"
                     rel="noopener noreferrer"
