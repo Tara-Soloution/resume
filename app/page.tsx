@@ -179,7 +179,7 @@ export default function Resume() {
                         </span>{" "}
                         using{" "}
                         <span className="font-semibold">
-                          Node.js, React.js, Nomad, TypeScript, React Native
+                          Node.js, React.js, Next.js, TypeScript, React Native
                         </span>
                       </span>
                     </li>
@@ -642,106 +642,31 @@ export default function Resume() {
                     <span className="text-blue-500 mr-1.5 font-bold">▹</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">
-                        Plant Disease Detection System
-                      </span>
-                      <p className="text-xs text-gray-600 leading-tight mt-0.5">
-                        AI-powered deep learning system for plant disease
-                        detection using Raspberry Pi and camera for real-time
-                        diagnosis.
-                      </p>
-                      <div className="flex flex-wrap gap-1 mt-1">
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
-                          Deep Learning
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
-                          Raspberry Pi
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
-                          Python
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
-                          Computer Vision
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="group">
-                  <div className="text-xs text-gray-700 flex items-start">
-                    <span className="text-blue-500 mr-1.5 font-bold">▹</span>
-                    <div className="flex-1">
-                      <span className="font-bold group-hover:text-blue-600 transition-colors">
-                        Tara Solutions Cloud
+                        Cloud Station Platform
                       </span>
                       <p className="text-xs text-gray-600 leading-tight mt-0.5">
                         <span className="font-bold">
-                          Entwicklung der offiziellen Website
+                          Enterprise-Grade Cloud Deployment Platform
                         </span>{" "}
-                        von Tara Solutions Inc. mit Fokus auf{" "}
+                        enabling rapid application deployment and multi-cloud
+                        management.{" "}
                         <span className="font-semibold">
-                          Leistungsoptimierung
+                          Implementation of centralized interface and automation
                         </span>{" "}
-                        und <span className="font-semibold">Sicherheit</span>
+                        with focus on security and scalability.
                       </p>
                       <div className="flex flex-wrap gap-1 mt-1">
                         <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Next.js
+                          Multi-Cloud
                         </span>
                         <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          React.js
+                          CI/CD
                         </span>
                         <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Node.js
-                        </span>
-                      </div>
-                      <a
-                        href="https://www.tarasolutions.cloud"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
-                      >
-                        <span>🔗</span>
-                        <span className="hover:underline">
-                          www.tarasolutions.cloud
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="group">
-                  <div className="text-xs text-gray-700 flex items-start">
-                    <span className="text-blue-500 mr-1.5 font-bold">▹</span>
-                    <div className="flex-1">
-                      <span className="font-bold group-hover:text-blue-600 transition-colors">
-                        Cloud Station Plattform
-                      </span>
-                      <p className="text-xs text-gray-600 leading-tight mt-0.5">
-                        <span className="font-bold">
-                          Skalierbare Enterprise-Cloud-Services-Plattform
-                        </span>{" "}
-                        mit globaler Nutzerbasis.{" "}
-                        <span className="font-semibold">
-                          Implementierung von Frontend und Backend
-                        </span>{" "}
-                        mit Fokus auf Leistung.
-                      </p>
-                      <div className="flex flex-wrap gap-1 mt-1">
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          React.js
+                          Infrastructure as Code
                         </span>
                         <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Next.js
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Node.js
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Kafka
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Nats
+                          Security
                         </span>
                       </div>
                       <a
@@ -758,18 +683,116 @@ export default function Resume() {
                     </div>
                   </div>
                 </div>
+                <div className="group">
+                  <div className="text-xs text-gray-700 flex items-start">
+                    <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                    <div className="flex-1">
+                      <span className="font-bold group-hover:text-blue-600 transition-colors">
+                        5th Wave
+                      </span>
+                      <p className="text-xs text-gray-600 leading-tight mt-0.5">
+                        <span className="font-bold">
+                          AI-Powered Voice Transformation Platform
+                        </span>{" "}
+                        enabling multilingual voice cloning while preserving
+                        unique voice characteristics.{" "}
+                        <span className="font-semibold">
+                          Implementation of real-time voice processing
+                        </span>{" "}
+                        with advanced AI algorithms for perfect voice
+                        replication.
+                      </p>
+                      <div className="flex flex-wrap gap-1 mt-1">
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                          AI/ML
+                        </span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                          Python
+                        </span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                          Node.js
+                        </span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                          Real-time Processing
+                        </span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                          API Development
+                        </span>
+                      </div>
+                      <a
+                        href="https://wave.cloud-station.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
+                      >
+                        <span>🔗</span>
+                        <span className="hover:underline">
+                          wave.cloud-station.io
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
 
                 <div className="group">
                   <div className="text-xs text-gray-700 flex items-start">
                     <span className="text-blue-500 mr-1.5 font-bold">▹</span>
                     <div className="flex-1">
-                      <span className="font-bold">
-                        Pflanzenerkrankungs-Erkennungssystem
+                      <span className="font-bold group-hover:text-blue-600 transition-colors">
+                        Tara Solutions Cloud
                       </span>
                       <p className="text-xs text-gray-600 leading-tight mt-0.5">
-                        KI-gestütztes Deep-Learning-System zur Erkennung von
-                        Pflanzenkrankheiten mit Raspberry Pi und Kamera für
-                        Echtzeitdiagnose.
+                        <span className="font-bold">
+                          Digital Transformation Solutions Provider
+                        </span>{" "}
+                        offering comprehensive cloud, web, and mobile solutions.{" "}
+                        <span className="font-semibold">
+                          Implementation of enterprise-grade infrastructure
+                        </span>{" "}
+                        with focus on scalability and security.
+                      </p>
+                      <div className="flex flex-wrap gap-1 mt-1">
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                          Cloud Solutions
+                        </span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                          Web Development
+                        </span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                          Mobile Apps
+                        </span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                          DevOps
+                        </span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                          AI Integration
+                        </span>
+                      </div>
+                      <a
+                        href="https://www.tarasolutions.cloud"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
+                      >
+                        <span>🔗</span>
+                        <span className="hover:underline">
+                          www.tarasolutions.cloud
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="group">
+                  <div className="text-xs text-gray-700 flex items-start">
+                    <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                    <div className="flex-1">
+                      <span className="font-bold group-hover:text-blue-600 transition-colors">
+                        Plant Disease Detection System
+                      </span>
+                      <p className="text-xs text-gray-600 leading-tight mt-0.5">
+                        AI-powered deep learning system for plant disease
+                        detection using Raspberry Pi and camera for real-time
+                        diagnosis.
                       </p>
                       <div className="flex flex-wrap gap-1 mt-1">
                         <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
@@ -819,11 +842,13 @@ export default function Resume() {
                   </h3>
                   <div className="flex flex-wrap gap-1">
                     {[
+                      "Node.js",
                       "JavaScript",
                       "TypeScript",
                       "Python",
-                      "HTML5",
-                      "CSS3",
+                      "PHP",
+                      "Go",
+                      "Java",
                     ].map((skill) => (
                       <span
                         key={skill}
@@ -848,6 +873,9 @@ export default function Resume() {
                       "Express.js",
                       "React Native",
                       "Django",
+                      "FastAPI",
+                      "Flask",
+                      "Laravel",
                     ].map((skill) => (
                       <span
                         key={skill}
@@ -867,6 +895,7 @@ export default function Resume() {
                     {[
                       "PostgreSQL",
                       "MongoDB",
+                      "MariaDB",
                       "MySQL",
                       "Redis",
                       "ElasticSearch",
@@ -894,6 +923,7 @@ export default function Resume() {
                       "CI/CD",
                       "Git",
                       "GitHub Actions",
+                      "Nomad",
                     ].map((skill) => (
                       <span
                         key={skill}
@@ -917,6 +947,12 @@ export default function Resume() {
                       "Event-Driven Architecture",
                       "Agile/Scrum",
                       "TDD",
+                      "DDD",
+                      "Clean Architecture",
+                      "SOLID Principles",
+                      "Design Patterns",
+                      "Object-Oriented Programming",
+                      "Functional Programming",
                     ].map((skill) => (
                       <span
                         key={skill}
@@ -968,7 +1004,7 @@ export default function Resume() {
                   <div>
                     <span className="font-medium text-xs">German</span>
                     <span className="text-xs text-gray-600 ml-2">
-                      (Basic - B1)
+                      (Basic - A2)
                     </span>
                   </div>
                   <div className="flex gap-1">
@@ -999,13 +1035,6 @@ export default function Resume() {
                         Certified by micro1.ai - World's best AI Recruiter for
                         technical excellence and software engineering expertise
                       </p>
-                      <div className="mt-2">
-                        <img
-                          src="/micro1.jpg"
-                          alt="Micro1 Certification"
-                          className="w-full h-auto rounded-lg shadow-sm"
-                        />
-                      </div>
                     </div>
                   </div>
                 </div>
