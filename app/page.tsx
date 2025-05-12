@@ -1041,6 +1041,88 @@ export default function Resume() {
                 </div>
               </div>
             </section>
+
+            {/* Soft Skills Section */}
+            <section className="mt-8">
+              <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
+                Soft Skills
+              </h2>
+              <div className="space-y-2">
+                <div className="text-xs text-gray-600 leading-relaxed">
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Leadership
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Team Management
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Problem Solving
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Communication
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Time Management
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Adaptability
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Critical Thinking
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Project Management
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Mentoring
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Strategic Planning
+                  </span>
+                </div>
+              </div>
+            </section>
+
+            {/* Hard Skills Section */}
+            <section className="mt-6">
+              <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
+                Hard Skills
+              </h2>
+              <div className="space-y-2">
+                <div className="text-xs text-gray-600 leading-relaxed">
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    System Design
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Cloud Architecture
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Database Design
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    API Design
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Security Implementation
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Performance Optimization
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Code Review
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Testing & QA
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Documentation
+                  </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    DevOps Practices
+                  </span>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
 
