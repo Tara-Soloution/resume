@@ -55,9 +55,6 @@ export default function Resume() {
                 <div className="flex flex-wrap items-center gap-3">
                   <span>Telefon: +98-9912906146</span>
                   <span>E-Mail: abbas.ataie.montazer@gmail.com</span>
-                  <span>Standort: Teheran, Iran</span>
-                </div>
-                <div className="flex flex-wrap items-center gap-3">
                   <a
                     href="https://www.ataie.me"
                     target="_blank"
@@ -66,6 +63,8 @@ export default function Resume() {
                   >
                     Portfolio: www.ataie.me
                   </a>
+                </div>
+                <div className="flex flex-wrap items-center gap-3">
                   <a
                     href="https://github.com/abbasatayee"
                     target="_blank"
@@ -75,12 +74,12 @@ export default function Resume() {
                     GitHub: github.com/abbasatayee
                   </a>
                   <a
-                    href="https://linkedin.com/in/abbas-ataie-72a4431b9"
+                    href="https://www.linkedin.com/in/ghulam-abbas-ataie-72a4431b9/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-blue-600 transition-colors"
                   >
-                    LinkedIn: linkedin.com/in/abbas-ataie-72a4431b9
+                    LinkedIn: linkedin.com/in/ghulam-abbas-ataie-72a4431b9/
                   </a>
                 </div>
               </div>
@@ -115,23 +114,14 @@ export default function Resume() {
             ZUSAMMENFASSUNG
           </h2>
           <p className="text-xs text-gray-600">
-            <span className="font-medium">
-              Senior Softwareentwickler und Technischer Leiter
-            </span>{" "}
-            mit über fünf Jahren Erfahrung in der Entwicklung und Skalierung von
-            Unternehmensanwendungen. Nachgewiesene Fachkenntnisse in der{" "}
-            <span className="font-semibold">Full-Stack-Entwicklung</span>,{" "}
-            <span className="font-semibold">Cloud-Architektur</span> und{" "}
-            <span className="font-semibold">technischen Leitung</span>.
-            Spezialisiert auf <span className="font-semibold">Node.js</span>,{" "}
-            <span className="font-semibold">React.js</span>,{" "}
-            <span className="font-semibold">TypeScript</span>,{" "}
-            <span className="font-semibold">Microservices</span> und{" "}
-            <span className="font-semibold">Cloud-Technologien</span>.
-            Erfolgreiche Leitung von Entwicklerteams sowie Umsetzung technischer
-            Strategien zur Entwicklung skalierbarer und wartungsfreundlicher
-            Softwarelösungen. Aktuell CTO bei Tara Solutions mit Fokus auf
-            innovative Cloud-Lösungen und Unternehmensarchitektur.
+            Senior Softwareentwickler, CTO und Gründer mit über fünf Jahren
+            Erfahrung in der Entwicklung und Skalierung von
+            Unternehmensanwendungen. Nachgewiesene Expertise in
+            Full-Stack-Entwicklung, Cloud-Architektur, technischer Leitung und
+            Teamführung mit Fokus auf Node.js, React.js, TypeScript,
+            Microservices und Cloud-Technologien. Gründer von Roshanayee.com und
+            aktiver YouTube-Content-Creator für Programmierausbildung und
+            Wissensaustausch.
           </p>
 
           <div className="mt-3">
@@ -565,9 +555,7 @@ export default function Resume() {
                         •
                       </span>
                       <span className="leading-tight">
-                        <span className="font-medium">
-                          Abschluss als Zweitbester des Jahrgangs
-                        </span>
+                        Abschluss als Zweitbester des Jahrgangs
                       </span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -575,10 +563,41 @@ export default function Resume() {
                         •
                       </span>
                       <span className="leading-tight">
-                        <span className="font-medium">
-                          Mentoring und Unterstützung
-                        </span>{" "}
-                        von Kommilitonen in Programmierung und Algorithmen
+                        Mentoring und Unterstützung
+                      </span>{" "}
+                      von Kommilitonen in Programmierung und Algorithmen
+                    </li>
+                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
+                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
+                        •
+                      </span>
+                      <span className="leading-tight">Schwerpunkte:</span>{" "}
+                      Software Engineering, Datenbanken, Netzwerke und KI
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
+                <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
+                <div className="pl-3 py-1.5">
+                  <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+                    Abdul Rahim Shahid High School
+                  </h3>
+                  <div className="text-blue-600 font-medium text-xs mb-0.5">
+                    Kabul
+                  </div>
+                  <div className="text-xs text-gray-600 font-medium mb-1">
+                    Abschluss: 2015
+                  </div>
+                  <ul className="space-y-0.5 text-gray-700 text-xs">
+                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
+                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
+                        •
+                      </span>
+                      <span className="leading-tight">
+                        Abschlussnote:{" "}
+                        <span className="font-semibold">93,44 %</span>
                       </span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -586,8 +605,16 @@ export default function Resume() {
                         •
                       </span>
                       <span className="leading-tight">
-                        <span className="font-medium">Schwerpunkte:</span>{" "}
-                        Software Engineering, Datenbanken, Netzwerke und KI
+                        Unter den Besten des Jahrgangs
+                      </span>
+                    </li>
+                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
+                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
+                        •
+                      </span>
+                      <span className="leading-tight">
+                        Hervorragende Leistungen in Naturwissenschaften,
+                        Mathematik und Sprachen
                       </span>
                     </li>
                   </ul>
@@ -1088,43 +1115,63 @@ export default function Resume() {
               </div>
             </section>
 
-            {/* Hard Skills Abschnitt */}
-            <section className="mt-6">
+            {/* Community Contributions Section */}
+            <section className="mt-8">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                TECHNISCHE KOMPETENZEN
+                GEMEINSCHAFTSBEITRÄGE
               </h2>
-              <div className="space-y-2">
-                <div className="text-xs text-gray-600 leading-relaxed">
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Systemdesign
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Cloud-Architektur
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Datenbankdesign
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    API-Design
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Sicherheitsimplementierung
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Leistungsoptimierung
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Code-Review
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Testing & QA
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Dokumentation
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    DevOps-Praktiken
-                  </span>
+              <div className="space-y-3">
+                <div className="group bg-gray-50 p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                  <div className="text-xs text-gray-700 flex items-start">
+                    <span className="text-blue-500 mr-2 text-base">🎓</span>
+                    <div className="flex-1">
+                      <span className="font-bold group-hover:text-blue-600 transition-colors">
+                        Roshanayee.com
+                      </span>
+                      <p className="text-xs text-gray-600 leading-tight mt-1">
+                        Gründer und Hauptdozent einer Bildungsplattform für
+                        Programmierung und technisches Wissen. Entwicklung und
+                        Durchführung von Kursen für die breite Öffentlichkeit.
+                      </p>
+                      <a
+                        href="https://roshanayee.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
+                      >
+                        <span>🔗</span>
+                        <span className="hover:underline">roshanayee.com</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="group bg-gray-50 p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                  <div className="text-xs text-gray-700 flex items-start">
+                    <span className="text-blue-500 mr-2 text-base">📺</span>
+                    <div className="flex-1">
+                      <span className="font-bold group-hover:text-blue-600 transition-colors">
+                        YouTube Channel
+                      </span>
+                      <p className="text-xs text-gray-600 leading-tight mt-1">
+                        Aktiver Content-Creator mit Fokus auf Technologie,
+                        Programmierung und Softwareentwicklung. Regelmäßige
+                        Veröffentlichung von Tutorials und technischen
+                        Erklärungen.
+                      </p>
+                      <a
+                        href="https://www.youtube.com/@abbas-ataie"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
+                      >
+                        <span>🔗</span>
+                        <span className="hover:underline">
+                          youtube.com/@abbas-ataie
+                        </span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
