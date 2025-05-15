@@ -55,9 +55,7 @@ export default function Resume() {
                 <div className="flex flex-wrap items-center gap-3">
                   <span>Phone: +98-9912906146</span>
                   <span>Email: abbas.ataie.montazer@gmail.com</span>
-                  <span>Location: Tehran, Iran</span>
-                </div>
-                <div className="flex flex-wrap items-center gap-3">
+
                   <a
                     href="https://www.ataie.me"
                     target="_blank"
@@ -66,6 +64,9 @@ export default function Resume() {
                   >
                     Portfolio: www.ataie.me
                   </a>
+                </div>
+
+                <div className="flex flex-wrap items-center gap-3">
                   <a
                     href="https://github.com/abbasatayee"
                     target="_blank"
@@ -75,12 +76,12 @@ export default function Resume() {
                     GitHub: github.com/abbasatayee
                   </a>
                   <a
-                    href="https://linkedin.com/in/abbas-ataie-72a4431b9"
+                    href="https://linkedin.com/in/ghulam-abbas-ataie-72a4431b9/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-blue-600 transition-colors"
                   >
-                    LinkedIn: linkedin.com/in/abbas-ataie-72a4431b9
+                    LinkedIn: linkedin.com/in/ghulam-abbas-ataie-72a4431b9/
                   </a>
                 </div>
               </div>
@@ -119,7 +120,8 @@ export default function Resume() {
               Senior Software Developer and Technical Lead
             </span>{" "}
             with over 5 years of experience in developing and scaling enterprise
-            applications. Proven expertise in{" "}
+            applications. Currently pursuing a Master's in Data Science at the
+            University of Europe for Applied Sciences. Proven expertise in{" "}
             <span className="font-semibold">Full-Stack Development</span>,{" "}
             <span className="font-semibold">Cloud Architecture</span>, and{" "}
             <span className="font-semibold">Technical Leadership</span>.
@@ -148,7 +150,8 @@ export default function Resume() {
         <div className="mt-6 grid grid-cols-3 gap-4">
           {/* Left Column (Experience) */}
           <div className="col-span-2">
-            <section>
+            {/* Experience Section - Adjusted position */}
+            <section className="mt-4">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
                 PROFESSIONAL EXPERIENCE
               </h2>
@@ -478,7 +481,7 @@ export default function Resume() {
               </div>
             </section>
 
-            {/* Education Section - Adjusted position */}
+            {/* Education Section - Moved back to original position */}
             <section className="mt-4">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
                 EDUCATION
@@ -493,7 +496,7 @@ export default function Resume() {
                     University of Europe for Applied Sciences
                   </div>
                   <div className="text-xs text-gray-600 font-medium mb-1">
-                    Mar 2025 – Present
+                    March 2025 – Present
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -557,7 +560,7 @@ export default function Resume() {
                     Kabul Polytechnic University
                   </div>
                   <div className="text-xs text-gray-600 font-medium mb-1">
-                    Mar 2016 – Aug 2019
+                    March 2016 – August 2019
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -565,9 +568,7 @@ export default function Resume() {
                         •
                       </span>
                       <span className="leading-tight">
-                        <span className="font-medium">
-                          Graduated with second place in class
-                        </span>
+                        Graduated with second place in class
                       </span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -575,10 +576,8 @@ export default function Resume() {
                         •
                       </span>
                       <span className="leading-tight">
-                        <span className="font-medium">
-                          Mentoring and Support
-                        </span>{" "}
-                        of fellow students in programming and algorithms
+                        Mentoring and support of fellow students in programming
+                        and algorithms
                       </span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -586,8 +585,51 @@ export default function Resume() {
                         •
                       </span>
                       <span className="leading-tight">
-                        <span className="font-medium">Focus Areas:</span>{" "}
-                        Software Engineering, Databases, Networks and AI
+                        Focus Areas: Software Engineering, Databases, Networks
+                        and AI
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
+                <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
+                <div className="pl-3 py-1.5">
+                  <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+                    Abdul Rahim Shahid High School
+                  </h3>
+                  <div className="text-blue-600 font-medium text-xs mb-0.5">
+                    Kabul
+                  </div>
+                  <div className="text-xs text-gray-600 font-medium mb-1">
+                    Graduation: 2015
+                  </div>
+                  <ul className="space-y-0.5 text-gray-700 text-xs">
+                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
+                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
+                        •
+                      </span>
+                      <span className="leading-tight">
+                        Graduation Score:{" "}
+                        <span className="font-semibold">93.44%</span>
+                      </span>
+                    </li>
+                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
+                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
+                        •
+                      </span>
+                      <span className="leading-tight">
+                        Among top performers in class
+                      </span>
+                    </li>
+                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
+                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
+                        •
+                      </span>
+                      <span className="leading-tight">
+                        Outstanding performance in Science, Mathematics, and
+                        Languages
                       </span>
                     </li>
                   </ul>
@@ -598,7 +640,7 @@ export default function Resume() {
             {/* Projects Section - Adjusted position */}
             <section className="mt-4">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                Key Projects
+                KEY PROJECTS
               </h2>
               <div className="space-y-2">
                 <div className="group">
@@ -784,7 +826,7 @@ export default function Resume() {
             {/* Skills Section - Reorganized for ATS */}
             <section className="mt-4">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                Technical Skills
+                TECHNICAL SKILLS
               </h2>
               <div className="space-y-4">
                 <div>
@@ -1045,7 +1087,7 @@ export default function Resume() {
             {/* Soft Skills Section */}
             <section className="mt-8">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                Soft Skills
+                SOFT SKILLS
               </h2>
               <div className="space-y-2">
                 <div className="text-xs text-gray-600 leading-relaxed">
@@ -1079,47 +1121,69 @@ export default function Resume() {
                   <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
                     Strategic Planning
                   </span>
+                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
+                    Cross-functional Teamwork
+                  </span>
                 </div>
               </div>
             </section>
 
-            {/* Hard Skills Section */}
-            <section className="mt-6">
+            {/* Community Contributions Section */}
+            <section className="mt-8">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                Hard Skills
+                COMMUNITY CONTRIBUTIONS
               </h2>
-              <div className="space-y-2">
-                <div className="text-xs text-gray-600 leading-relaxed">
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    System Design
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Cloud Architecture
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Database Design
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    API Design
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Security Implementation
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Performance Optimization
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Code Review
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Testing & QA
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    Documentation
-                  </span>
-                  <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5 mb-1.5">
-                    DevOps Practices
-                  </span>
+              <div className="space-y-3">
+                <div className="group bg-gray-50 p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                  <div className="text-xs text-gray-700 flex items-start">
+                    <span className="text-blue-500 mr-2 text-base">🎓</span>
+                    <div className="flex-1">
+                      <span className="font-bold group-hover:text-blue-600 transition-colors">
+                        Roshanayee.com
+                      </span>
+                      <p className="text-xs text-gray-600 leading-tight mt-1">
+                        Founder and lead instructor of an educational platform
+                        for programming and technical knowledge. Development and
+                        delivery of courses for the general public.
+                      </p>
+                      <a
+                        href="https://roshanayee.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
+                      >
+                        <span>🔗</span>
+                        <span className="hover:underline">roshanayee.com</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="group bg-gray-50 p-2 rounded-lg hover:bg-gray-100 transition-colors">
+                  <div className="text-xs text-gray-700 flex items-start">
+                    <span className="text-blue-500 mr-2 text-base">📺</span>
+                    <div className="flex-1">
+                      <span className="font-bold group-hover:text-blue-600 transition-colors">
+                        YouTube Channel
+                      </span>
+                      <p className="text-xs text-gray-600 leading-tight mt-1">
+                        Active content creator focusing on technology,
+                        programming, and software development. Regular
+                        publication of tutorials and technical explanations.
+                      </p>
+                      <a
+                        href="https://www.youtube.com/@abbas-ataie"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
+                      >
+                        <span>🔗</span>
+                        <span className="hover:underline">
+                          youtube.com/@abbas-ataie
+                        </span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
