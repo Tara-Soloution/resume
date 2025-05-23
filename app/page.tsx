@@ -118,22 +118,22 @@ export default function Resume() {
               </div>
             </div>
 
-            <div className="flex items-start gap-2">
-              <div className="w-24 h-24 bg-white p-1.5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div className="flex items-start gap-4">
+              <div className="w-24 h-24 rounded-lg shadow-lg">
                 <img
                   src={`https://api.qrserver.com/v1/create-qr-code/?size=96x96&data=${encodeURIComponent(
                     "https://hakima.me"
-                  )}`}
+                  )}&bgcolor=FFFFFF&color=000000`}
                   alt="QR Code"
-                  className="w-full h-full hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full rounded-lg object-cover"
                 />
               </div>
-              <div className="relative w-32 h-32 group">
-                <div className="absolute inset-0 rounded-lg overflow-hidden shadow-lg group-hover:shadow-xl transition-shadow duration-300">
+              <div className="relative w-32 h-32">
+                <div className="absolute inset-0 rounded-lg overflow-hidden shadow-lg">
                   <img
                     src="/profile/hakima.jpg"
                     alt="Profilbild"
-                    className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                    className="h-full w-full object-cover object-center rounded-lg"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
