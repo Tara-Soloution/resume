@@ -33,80 +33,109 @@ export default function Resume() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 print:max-w-none print:px-0 print:py-0 print:aspect-[1/1.4142] print:w-[210mm] print:h-[297mm]">
         {/* Header Section with decorative elements */}
         <div className="relative mb-5 pb-5 border-b border-gray-100">
-          {/* Decorative elements - removing or adjusting */}
-          <div className="absolute top-0 right-0 w-64 h-64 opacity-0">
-            <div className="absolute top-0 right-0 w-32 h-32"></div>
-            <div className="absolute bottom-0 left-0 w-32 h-32"></div>
+          {/* Decorative elements */}
+          <div className="absolute top-0 right-0 w-64 h-64 opacity-10">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+            <div className="absolute bottom-0 left-0 w-32 h-32 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-1000"></div>
           </div>
 
           <div className="flex items-start justify-between relative z-10">
             <div className="flex-1 space-y-2 pt-2">
-              <div className="relative">
-                <h1 className="text-3xl font-bold text-gray-900 tracking-tight">
-                  HAKIMA MERZAYEE
+              <div className="relative group">
+                <h1 className="text-3xl font-bold text-gray-900 tracking-tight group-hover:text-blue-600 transition-colors duration-300">
+                  HAKIMA MERZAYEE{" "}
+                  <span className="text-xl font-semibold text-blue-600 ml-2">
+                    | Full Stack Entwicklerin
+                  </span>
                 </h1>
-                <div className="absolute -bottom-2 left-0 w-24 h-1 bg-blue-600"></div>
+                <div className="absolute -bottom-2 left-0 w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></div>
               </div>
 
-              <h2 className="text-lg font-medium text-gray-700 pl-1">
+              <h2 className="text-lg font-medium text-gray-700 pl-1 hover:text-blue-600 transition-colors duration-300">
                 Senior Frontend-Entwicklerin | Full-Stack-Ingenieurin
               </h2>
 
               <div className="space-y-1.5 text-gray-600 text-xs pl-1">
                 <div className="flex flex-wrap items-center gap-3">
-                  <span className="flex items-center gap-1.5">
-                    <span className="text-blue-600">📞</span>
-                    <span>+989932818276</span>
+                  <span className="flex items-center gap-1.5 group">
+                    <span className="font-semibold text-xs group-hover:text-blue-600 transition-colors">
+                      Portfolio:
+                    </span>
+                    <a
+                      href="https://hakima.me"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs hover:text-blue-600 hover:underline transition-colors"
+                    >
+                      hakima.me
+                    </a>
                   </span>
-                  <span className="flex items-center gap-1.5">
-                    <span className="text-blue-600">📧</span>
-                    <span>hakima.merzayee3@gmail.com</span>
+                  <span className="flex items-center gap-1.5 group">
+                    <span className="font-semibold text-xs group-hover:text-blue-600 transition-colors">
+                      Telefon:
+                    </span>
+                    <span className="text-xs hover:text-blue-600 transition-colors">
+                      +989932818276
+                    </span>
                   </span>
-                  <span className="flex items-center gap-1.5">
-                    <span className="text-blue-600">📍</span>
-                    <span>Teheran, Qarchak, Iran</span>
+                  <span className="flex items-center gap-1.5 group">
+                    <span className="font-semibold text-xs group-hover:text-blue-600 transition-colors">
+                      E-Mail:
+                    </span>
+                    <span className="text-xs hover:text-blue-600 transition-colors">
+                      hakima.merzayee3@gmail.com
+                    </span>
                   </span>
                 </div>
                 <div className="flex flex-wrap items-center gap-3">
-                  <a
-                    href="https://github.com/hakima3"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 hover:text-blue-600 transition-colors"
-                  >
-                    <span className="text-blue-600">🔗</span>
-                    <span>github.com/hakima3</span>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/hakima-merzayee-1ab204176"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 hover:text-blue-600 transition-colors"
-                  >
-                    <span className="text-blue-600">💼</span>
-                    <span>linkedin.com/in/hakima-merzayee-1ab204176</span>
-                  </a>
+                  <span className="flex items-center gap-1.5 group">
+                    <span className="font-semibold text-xs group-hover:text-blue-600 transition-colors">
+                      GitHub:
+                    </span>
+                    <a
+                      href="https://github.com/hakima3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs hover:text-blue-600 hover:underline transition-colors"
+                    >
+                      github.com/hakima3
+                    </a>
+                  </span>
+                  <span className="flex items-center gap-1.5 group">
+                    <span className="font-semibold text-xs group-hover:text-blue-600 transition-colors">
+                      LinkedIn:
+                    </span>
+                    <a
+                      href="https://www.linkedin.com/in/hakima-merzayee-1ab204176"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs hover:text-blue-600 hover:underline transition-colors"
+                    >
+                      linkedin.com/in/hakima-merzayee-1ab204176
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
 
             <div className="flex items-start gap-2">
-              <div className="w-16 h-16 bg-white p-1.5 rounded-lg">
+              <div className="w-24 h-24 bg-white p-1.5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img
-                  src={`https://api.qrserver.com/v1/create-qr-code/?size=64x64&data=${encodeURIComponent(
-                    "https://www.tarasolutions.cloud/de/about/team/hakima"
+                  src={`https://api.qrserver.com/v1/create-qr-code/?size=96x96&data=${encodeURIComponent(
+                    "https://hakima.me"
                   )}`}
                   alt="QR Code"
-                  className="w-full h-full"
+                  className="w-full h-full hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <div className="relative w-28 h-28">
-                <div className="absolute inset-0 rounded-lg overflow-hidden">
+              <div className="relative w-32 h-32 group">
+                <div className="absolute inset-0 rounded-lg overflow-hidden shadow-lg group-hover:shadow-xl transition-shadow duration-300">
                   <img
                     src="/profile/hakima.jpg"
                     alt="Profilbild"
-                    className="h-full w-full object-cover object-center"
+                    className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
               </div>
             </div>
@@ -158,7 +187,7 @@ export default function Resume() {
                   <div className="flex justify-between text-gray-600 mb-2">
                     <span className="flex items-center bg-gray-100/80 px-2 py-0.5 rounded text-xs">
                       <span className="mr-1">📅</span>
-                      <span className="font-medium">05/2024 - Heute</span>
+                      <span className="font-medium">05/2024 - 04/2025</span>
                     </span>
                     <span className="flex items-center bg-gray-100/80 px-2 py-0.5 rounded text-xs">
                       <span className="mr-1">📍</span>
@@ -537,152 +566,6 @@ export default function Resume() {
                 </div>
               </div>
             </section>
-
-            {/* Education Section */}
-            <section className="mt-4">
-              <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                AUSBILDUNG
-              </h2>
-              <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
-                <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
-                <div className="pl-3 py-1.5">
-                  <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Master in Datenwissenschaft
-                  </h3>
-                  <div className="text-blue-600 font-medium text-xs mb-0.5">
-                    University of Europe for Applied Sciences
-                  </div>
-                  <div className="flex text-gray-600 mb-1">
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">🗓</span>
-                      <span className="font-medium">03/2025 - Heute</span>
-                    </span>
-                  </div>
-                  <ul className="space-y-0.5 text-gray-700 text-xs">
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
-                      </span>
-                      <span className="leading-tight">
-                        <span className="font-bold">
-                          Hochwertiges Masterprogramm
-                        </span>{" "}
-                        mit Fokus auf zukunftsweisende Technologien und Methoden
-                      </span>
-                    </li>
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
-                      </span>
-                      <span className="leading-tight">
-                        <span className="font-bold">Kernfächer:</span>{" "}
-                        <span className="font-semibold">
-                          Data Science, Data Engineering, Data Analytics,
-                          Machine Learning
-                        </span>
-                      </span>
-                    </li>
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
-                      </span>
-                      <span className="leading-tight">
-                        <span className="font-bold">Spezialisierung:</span>{" "}
-                        <span className="font-semibold">
-                          Cloud Computing, Entscheidungsunterstützungssysteme
-                        </span>
-                      </span>
-                    </li>
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
-                      </span>
-                      <span className="leading-tight">
-                        <span className="font-bold">
-                          Zusätzliche Qualifikationen:
-                        </span>{" "}
-                        <span className="font-semibold">
-                          Unternehmerisches Denken & Digitale Geschäftsmodelle
-                        </span>
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
-                <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
-                <div className="pl-3 py-1.5">
-                  <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Bachelor in Informatik
-                  </h3>
-                  <div className="text-blue-600 font-medium text-xs mb-0.5">
-                    Kabul Polytechnic University
-                  </div>
-                  <div className="flex text-gray-600 mb-1">
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">🗓</span>
-                      <span className="font-medium">03/2016 - 08/2019</span>
-                    </span>
-                  </div>
-                  <ul className="space-y-0.5 text-gray-700 text-xs">
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
-                      </span>
-                      <span className="leading-tight">
-                        <span className="font-bold">
-                          Abschluss mit einem sehr guten Notendurchschnitt von
-                          80,83% an der
-                        </span>{" "}
-                        Kabul Polytechnic University.
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
-                <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
-                <div className="pl-3 py-1.5">
-                  <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Sekundarschule
-                  </h3>
-                  <div className="text-blue-600 font-medium text-xs mb-0.5">
-                    Qal-e-Bakhtyar High School
-                  </div>
-                  <div className="flex text-gray-600 mb-1">
-                    <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
-                      <span className="mr-1">🗓</span>
-                      <span className="font-medium">2003 - 2015</span>
-                    </span>
-                  </div>
-                  <ul className="space-y-0.5 text-gray-700 text-xs">
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        ▹
-                      </span>
-                      <span className="leading-tight">
-                        <span className="font-bold">
-                          Abschluss mit einem sehr guten Notendurchschnitt von
-                          97,83%
-                        </span>{" "}
-                        an der Qal-e-Bakhtyar High School
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-
-            {/* References Section */}
-            <section className="mt-3 mb-4">
-              <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                REFERENZEN
-              </h2>
-              <p className="text-xs text-gray-600">
-                Referenzen auf Anfrage erhältlich.
-              </p>
-            </section>
           </div>
 
           {/* Right Column */}
@@ -701,11 +584,10 @@ export default function Resume() {
                     {[
                       "React.js",
                       "Next.js",
-                      "Vue.js",
+                      "Nuxt.js",
                       "JavaScript",
                       "TypeScript",
-                      "HTML5",
-                      "CSS3",
+                      "Tailwind CSS",
                     ].map((skill) => (
                       <span
                         key={skill}
@@ -728,6 +610,8 @@ export default function Resume() {
                       "Node.js",
                       "Express.js",
                       "RESTful APIs",
+                      "Microservices",
+                      "Serverless",
                     ].map((skill) => (
                       <span
                         key={skill}
@@ -741,10 +625,17 @@ export default function Resume() {
 
                 <div className="mt-2">
                   <h3 className="text-xs font-bold text-gray-700 mb-1">
-                    Datenbanken:
+                    Datenbanken & Cloud:
                   </h3>
                   <div className="flex flex-wrap gap-1">
-                    {["MySQL", "PostgreSQL", "MongoDB"].map((skill) => (
+                    {[
+                      "MySQL",
+                      "PostgreSQL",
+                      "MongoDB",
+                      "AWS",
+                      "CI/CD",
+                      "DevOps",
+                    ].map((skill) => (
                       <span
                         key={skill}
                         className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
@@ -757,19 +648,40 @@ export default function Resume() {
 
                 <div className="mt-2">
                   <h3 className="text-xs font-bold text-gray-700 mb-1">
-                    Tools & Methoden:
+                    Methoden & Tools:
                   </h3>
                   <div className="flex flex-wrap gap-1">
-                    {["Git", "Docker", "Testing", "CI/CD", "Agile"].map(
-                      (skill) => (
-                        <span
-                          key={skill}
-                          className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
-                        >
-                          {skill}
-                        </span>
-                      )
-                    )}
+                    {["Git", "Agile", "Testing", "Code Review"].map((skill) => (
+                      <span
+                        key={skill}
+                        className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="mt-2">
+                  <h3 className="text-xs font-bold text-gray-700 mb-1">
+                    Soft Skills:
+                  </h3>
+                  <div className="flex flex-wrap gap-1">
+                    {[
+                      "Teamarbeit",
+                      "Kommunikation",
+                      "Problemlösung",
+                      "Zeitmanagement",
+                      "Kritisches Denken",
+                      "Innovation",
+                    ].map((skill) => (
+                      <span
+                        key={skill}
+                        className="px-1.5 py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs font-semibold hover:bg-gray-200 transition-colors"
+                      >
+                        {skill}
+                      </span>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -780,46 +692,33 @@ export default function Resume() {
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
                 SPRACHEN
               </h2>
-              <div className="space-y-1.5">
-                <div className="flex justify-between items-center">
+              <div className="space-y-2.5">
+                <div className="flex justify-between items-center pr-4">
                   <div>
                     <span className="font-medium text-xs">Dari</span>
-                    <span className="text-xs text-gray-600 ml-2">
-                      (Muttersprache)
-                    </span>
                   </div>
-                  <div className="flex gap-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                  <div>
+                    <span className="text-xs text-gray-600">Muttersprache</span>
                   </div>
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center pr-4">
                   <div>
                     <span className="font-medium text-xs">Englisch</span>
-                    <span className="text-xs text-gray-600 ml-2">(B2)</span>
                   </div>
-                  <div className="flex gap-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+                  <div>
+                    <span className="text-xs text-gray-600">
+                      B2 - Fortgeschritten
+                    </span>
                   </div>
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center pr-4">
                   <div>
                     <span className="font-medium text-xs">Deutsch</span>
-                    <span className="text-xs text-gray-600 ml-2">(A1)</span>
                   </div>
-                  <div className="flex gap-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-800"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+                  <div>
+                    <span className="text-xs text-gray-600">
+                      A1 - Grundkenntnisse
+                    </span>
                   </div>
                 </div>
               </div>
@@ -869,9 +768,44 @@ export default function Resume() {
             {/* Projects Section - Moved to right column */}
             <section className="print:break-before-page">
               <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-                PROJEKTE
+                WICHTIGE PROJEKTE
               </h2>
               <div className="space-y-2">
+                <div className="group bg-gray-50 p-2 rounded-lg hover:bg-gray-100 transition-all duration-300 border border-gray-100">
+                  <div className="text-xs text-gray-700 flex items-start">
+                    <span className="text-blue-500 mr-2 text-base">☁️</span>
+                    <div className="flex-1">
+                      <span className="font-bold group-hover:text-blue-600 transition-colors">
+                        Cloud Station
+                      </span>
+                      <p className="text-xs text-gray-600 leading-tight mt-0.5">
+                        <span className="font-semibold">
+                          Plattform für One-Click-Deployment &
+                          Multi-Cloud-Management.
+                        </span>
+                      </p>
+                      <a
+                        href="https://www.cloud-station.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs text-blue-600 hover:text-blue-800 underline mt-1 inline-block"
+                      >
+                        cloud-station.io
+                      </a>
+                      <div className="flex flex-wrap gap-1 mt-1">
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded-full text-xs font-semibold">
+                          Next.js
+                        </span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded-full text-xs font-semibold">
+                          Multi-Cloud
+                        </span>
+                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded-full text-xs font-semibold">
+                          CI/CD
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="group bg-gray-50 p-2 rounded-lg hover:bg-gray-100 transition-all duration-300 border border-gray-100">
                   <div className="text-xs text-gray-700 flex items-start">
                     <span className="text-blue-500 mr-2 text-base">🔬</span>
@@ -880,14 +814,9 @@ export default function Resume() {
                         Hautkrankheiten-Erkennungssystem
                       </span>
                       <p className="text-xs text-gray-600 leading-tight mt-0.5">
-                        Ein{" "}
-                        <span className="font-bold">
-                          KI-gestütztes Deep-Learning-System
-                        </span>{" "}
-                        zur präzisen Erkennung von 5 spezifischen
-                        Hautkrankheiten. Das System verwendet{" "}
-                        <span className="font-semibold">CNN</span> für die
-                        Bildanalyse.
+                        <span className="font-semibold">
+                          KI-System zur Erkennung von Hautkrankheiten mit CNN.
+                        </span>
                       </p>
                       <div className="flex flex-wrap gap-1 mt-1">
                         <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded-full text-xs font-semibold">
@@ -912,15 +841,10 @@ export default function Resume() {
                         Enterprise-Management-Suite
                       </span>
                       <p className="text-xs text-gray-600 leading-tight mt-0.5">
-                        Eine umfassende{" "}
-                        <span className="font-bold">
-                          Enterprise-Management-Plattform
-                        </span>{" "}
-                        mit integrierten Modulen für{" "}
                         <span className="font-semibold">
-                          Benutzer-, Datei-, Produkt- und Aufgabenverwaltung
+                          Plattform für Benutzer-, Datei- und
+                          Aufgabenverwaltung.
                         </span>
-                        .
                       </p>
                       <div className="flex flex-wrap gap-1 mt-1">
                         <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded-full text-xs font-semibold">
@@ -941,7 +865,129 @@ export default function Resume() {
           </div>
         </div>
 
-        {/* Action Buttons - Moved to bottom and made cozy */}
+        {/* Education Section - Full Width */}
+        <section className="mt-8">
+          <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
+            AUSBILDUNG
+          </h2>
+
+          {/* Master's Degree */}
+          <div className="mb-4 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
+            <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
+            <div className="pl-3 py-1.5">
+              <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+                Master in Datenwissenschaft
+              </h3>
+              <div className="text-blue-600 font-medium text-xs mb-0.5">
+                University of Europe for Applied Sciences
+              </div>
+              <div className="flex text-gray-600 mb-1">
+                <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
+                  <span className="mr-1">🗓</span>
+                  <span className="font-medium">03/2025 - Heute</span>
+                </span>
+              </div>
+              <ul className="list-disc pl-4 space-y-1 text-gray-700 text-xs">
+                <li>
+                  <span className="font-bold">Hochwertiges Masterprogramm</span>{" "}
+                  mit Fokus auf{" "}
+                  <span className="font-bold">
+                    zukunftsweisende Technologien
+                  </span>{" "}
+                  und Methoden
+                </li>
+                <li>
+                  <span className="font-bold">Kernfächer:</span>{" "}
+                  <span className="font-semibold">
+                    Data Science, Data Engineering, Data Analytics, Machine
+                    Learning
+                  </span>
+                </li>
+                <li>
+                  <span className="font-bold">Spezialisierung:</span>{" "}
+                  <span className="font-semibold">
+                    Cloud Computing, Entscheidungsunterstützungssysteme
+                  </span>
+                </li>
+                <li>
+                  <span className="font-bold">
+                    Zusätzliche Qualifikationen:
+                  </span>{" "}
+                  <span className="font-semibold">
+                    Unternehmerisches Denken & Digitale Geschäftsmodelle
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Bachelor's Degree */}
+          <div className="mb-4 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
+            <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
+            <div className="pl-3 py-1.5">
+              <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+                Bachelor in Informatik
+              </h3>
+              <div className="text-blue-600 font-medium text-xs mb-0.5">
+                Kabul Polytechnic University
+              </div>
+              <div className="flex text-gray-600 mb-1">
+                <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
+                  <span className="mr-1">🗓</span>
+                  <span className="font-medium">03/2016 - 08/2019</span>
+                </span>
+              </div>
+              <ul className="list-disc pl-4 space-y-1 text-gray-700 text-xs">
+                <li>
+                  <span className="font-bold">Abschluss mit 80,83%</span> an der
+                  Kabul Polytechnic University
+                </li>
+                <li>
+                  <span className="font-bold">Abschlussarbeit:</span>{" "}
+                  <span className="font-semibold">
+                    Entwicklung eines KI-Systems zur Erkennung von
+                    Hautkrankheiten mit CNN
+                  </span>
+                </li>
+                <li>
+                  <span className="font-bold">Projekt:</span>{" "}
+                  <span className="font-semibold">
+                    Implementierung eines Deep Learning-Modells zur
+                    automatischen Klassifizierung von Hautkrankheiten
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* High School */}
+          <div className="mb-4 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
+            <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
+            <div className="pl-3 py-1.5">
+              <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+                Sekundarschule
+              </h3>
+              <div className="text-blue-600 font-medium text-xs mb-0.5">
+                Qal-e-Bakhtyar High School
+              </div>
+              <div className="flex text-gray-600 mb-1">
+                <span className="flex items-center bg-blue-50 px-1.5 py-0.5 rounded-full text-xs">
+                  <span className="mr-1">🗓</span>
+                  <span className="font-medium">2003 - 2015</span>
+                </span>
+              </div>
+              <ul className="list-disc pl-4 space-y-1 text-gray-700 text-xs">
+                <li>
+                  <span className="font-bold">
+                    Abschluss mit einem sehr guten Notendurchschnitt von 97,83%
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Action Buttons */}
         <div className="mt-8 mb-6 flex justify-center gap-4 print:hidden">
           <Button
             onClick={handlePDFDownload}
