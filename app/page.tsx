@@ -187,7 +187,7 @@ export default function Resume() {
                   <div className="flex justify-between text-gray-600 mb-2">
                     <span className="flex items-center bg-gray-100/80 px-2 py-0.5 rounded text-xs">
                       <span className="mr-1">📅</span>
-                      <span className="font-medium">05/2024 - 04/2025</span>
+                      <span className="font-medium">05/2024 - heute</span>
                     </span>
                     <span className="flex items-center bg-gray-100/80 px-2 py-0.5 rounded text-xs">
                       <span className="mr-1">📍</span>
@@ -331,12 +331,12 @@ export default function Resume() {
                     Full-Stack-Entwicklerin
                   </h3>
                   <div className="text-blue-600 font-medium text-xs mb-1">
-                    Smart Fariqi (Teebalhoor), Kabul
+                    Smart Friqi, Kabul
                   </div>
                   <div className="flex justify-between text-gray-600 mb-2">
                     <span className="flex items-center bg-blue-50/80 px-2 py-0.5 rounded text-xs">
                       <span className="mr-1">📅</span>
-                      <span className="font-medium">04/2022 - 04/2023</span>
+                      <span className="font-medium">12/2021 - 06/2023</span>
                     </span>
                     <span className="flex items-center bg-blue-50/80 px-2 py-0.5 rounded text-xs">
                       <span className="mr-1">📍</span>
