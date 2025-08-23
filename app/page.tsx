@@ -43,7 +43,7 @@ export default function Resume() {
             <div className="flex-1 space-y-2 pt-2">
               <div className="relative">
                 <h1 className="text-3xl font-bold text-gray-900 tracking-tight">
-                  Ghulam Abbas Ataie | Software Engineer
+                  Abbas Ataie | Software Engineer
                 </h1>
                 <div className="absolute -bottom-2 left-0 w-24 h-1 bg-blue-600"></div>
               </div>
@@ -53,7 +53,7 @@ export default function Resume() {
               </h2>
               <div className="space-y-1.5 text-gray-600 text-xs pl-1">
                 <div className="flex flex-wrap items-center gap-3">
-                  <span>Phone: +98-9912906146</span>
+                  <span>Phone: +49 1578 4246219</span>
                   <span>Email: abbas.ataie.montazer@gmail.com</span>
 
                   <a
@@ -76,12 +76,12 @@ export default function Resume() {
                     GitHub: github.com/abbasatayee
                   </a>
                   <a
-                    href="https://linkedin.com/in/ghulam-abbas-ataie-72a4431b9/"
+                    href="https://www.linkedin.com/in/abbas-ataie-72a4431b9/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-blue-600 transition-colors"
                   >
-                    LinkedIn: linkedin.com/in/ghulam-abbas-ataie-72a4431b9/
+                    LinkedIn: linkedin.com/in/abbas-ataie-72a4431b9/
                   </a>
                 </div>
               </div>
@@ -132,8 +132,9 @@ export default function Resume() {
             <span className="font-semibold">Cloud Technologies</span>.
             Successful leadership of teams and implementation of technical
             strategies for developing scalable and maintainable software
-            solutions. Currently CTO at Tara Solutions with focus on innovative
-            cloud solutions and enterprise architecture.
+            solutions. Currently Senior Software Engineer at{" "}
+            <span className="font-semibold">CloudStation.io</span> with focus on
+            innovative cloud solutions and enterprise architecture.
           </p>
           {/* Core Competencies Section (now inside summary) */}
           <div className="mt-3">
@@ -161,13 +162,13 @@ export default function Resume() {
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gray-800 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-1.5">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-gray-900 transition-colors">
-                    Chief Technology Officer (CTO)
+                    Senior Software Engineer
                   </h3>
                   <div className="text-gray-700 font-medium text-xs mb-0.5">
-                    Tara Solutions Inc, Kabul
+                    Cloud Station LLC FZ (Dubai) - CloudStation.io
                   </div>
                   <div className="text-xs text-gray-600 font-medium mb-1">
-                    Jan 2023 – Present | Remote
+                    Oct 2022 – Present | Remote
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -176,11 +177,14 @@ export default function Resume() {
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
-                          Development of Web and Mobile Applications
+                          Architecture of Microservices and Development of Web &
+                          Mobile Applications
                         </span>{" "}
                         using{" "}
                         <span className="font-semibold">
-                          Node.js, React.js, Next.js, TypeScript, React Native
+                          Node.js, React.js, Next.js, TypeScript, React Native,
+                          Nats, Docker, Hashicorp Nomad, Kafka, PostgreSQL and,
+                          ...
                         </span>
                       </span>
                     </li>
@@ -189,11 +193,22 @@ export default function Resume() {
                         •
                       </span>
                       <span className="leading-tight">
-                        <span className="font-bold">Strategic Partnership</span>{" "}
-                        with Cloud Station LLC FZ (Dubai) for{" "}
+                        <span className="font-bold">
+                          Building enterprise solutions
+                        </span>{" "}
+                        at{" "}
                         <span className="font-semibold">
-                          Enterprise Cloud Solutions
+                          Cloud Station LLC FZ (Dubai)
                         </span>
+                        , including{" "}
+                        <span className="font-semibold">
+                          payment and subscription systems
+                        </span>
+                        . Also developing an{" "}
+                        <span className="font-semibold">
+                          automated service for one-click deployment
+                        </span>
+                        .
                       </span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -224,17 +239,6 @@ export default function Resume() {
                         <span className="font-semibold">
                           Cloud Infrastructures
                         </span>
-                      </span>
-                    </li>
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">
-                        •
-                      </span>
-                      <span className="leading-tight">
-                        <span className="font-bold">
-                          Development and Implementation
-                        </span>{" "}
-                        of technical vision and strategy for the company
                       </span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
