@@ -53,7 +53,7 @@ export default function Resume() {
               </h2>
               <div className="space-y-1.5 text-gray-600 text-xs pl-1">
                 <div className="flex flex-wrap items-center gap-3">
-                  <span>Telefon: +98-9912906146</span>
+                  <span>Telefon: +49 1578 4246219</span>
                   <span>E-Mail: abbas.ataie.montazer@gmail.com</span>
                   <a
                     href="https://www.ataie.me"
@@ -74,12 +74,12 @@ export default function Resume() {
                     GitHub: github.com/abbasatayee
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/ghulam-abbas-ataie-72a4431b9/"
+                    href="https://www.linkedin.com/in/abbas-ataie-72a4431b9/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-blue-600 transition-colors"
                   >
-                    LinkedIn: linkedin.com/in/ghulam-abbas-ataie-72a4431b9/
+                    LinkedIn: linkedin.com/in/abbas-ataie-72a4431b9/
                   </a>
                 </div>
               </div>
@@ -114,19 +114,22 @@ export default function Resume() {
             ZUSAMMENFASSUNG
           </h2>
           <p className="text-xs text-gray-600">
-            Senior Softwareentwickler, CTO und Gründer mit über fünf Jahren
-            Erfahrung in der Entwicklung und Skalierung von
-            Unternehmensanwendungen. Nachgewiesene Expertise in
-            Full-Stack-Entwicklung, Cloud-Architektur, technischer Leitung und
-            Teamführung mit Fokus auf Node.js, React.js, TypeScript,
-            Microservices und Cloud-Technologien. Gründer von Roshanayee.com und
-            aktiver YouTube-Content-Creator für Programmierausbildung und
-            Wissensaustausch.
+            Senior Softwareentwickler und Technischer Leiter mit über fünf
+            Jahren Erfahrung in der Entwicklung und Skalierung von
+            Unternehmensanwendungen. Derzeit im Masterstudium Data Science an
+            der University of Europe for Applied Sciences. Nachgewiesene
+            Expertise in Full-Stack-Entwicklung, Cloud-Architektur und
+            technischer Führung. Spezialisierung auf Node.js, React.js,
+            TypeScript, Microservices und Cloud-Technologien. Erfolgreiche
+            Leitung von Teams und Umsetzung technischer Strategien zur
+            Entwicklung skalierbarer und wartbarer Softwarelösungen. Aktuell
+            Senior Software Engineer bei CloudStation.io mit Fokus auf
+            innovative Cloud-Lösungen und Enterprise-Architektur.
           </p>
 
           <div className="mt-3">
             <h3 className="text-xs font-bold text-gray-800 mb-1">
-              Fachliche Kompetenzen:
+              Kernkompetenzen:
             </h3>
             <p className="text-xs text-gray-700">
               Full-Stack-Webentwicklung, Microservices, TypeScript, React.js,
@@ -143,18 +146,18 @@ export default function Resume() {
                 BERUFLICHE ERFAHRUNG
               </h2>
 
-              {/* CTO Position */}
+              {/* Senior Software Engineer Position */}
               <div className="mb-2 relative group hover:bg-gray-50 rounded-lg transition-colors duration-300">
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gray-800 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-1.5">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-gray-900 transition-colors">
-                    Chief Technology Officer (CTO)
+                    Senior Software Entwickler
                   </h3>
                   <div className="text-gray-700 font-medium text-xs mb-0.5">
-                    Tara Solutions Inc, Kabul
+                    Cloud Station LLC FZ (Dubai) – CloudStation.io
                   </div>
                   <div className="text-xs text-gray-600 font-medium mb-1">
-                    Jan. 2023 – heute | Remote
+                    Okt. 2022 – heute | Remote
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -163,12 +166,15 @@ export default function Resume() {
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
-                          Entwicklung von Web- und Mobile-Anwendungen
+                          Architektur von Microservices und Entwicklung von Web-
+                          & Mobile-Anwendungen
                         </span>{" "}
                         mit{" "}
                         <span className="font-semibold">
-                          Node.js, React.js, Next.js, TypeScript, React Native
-                        </span>
+                          Node.js, React.js, Next.js, TypeScript, React Native,
+                          Nats, Docker, Hashicorp Nomad, Kafka, PostgreSQL
+                        </span>{" "}
+                        und weiteren Technologien.
                       </span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -177,12 +183,18 @@ export default function Resume() {
                       </span>
                       <span className="leading-tight">
                         <span className="font-bold">
-                          Strategische Partnerschaft
+                          Entwicklung von Enterprise-Lösungen
                         </span>{" "}
-                        mit Cloud Station LLC FZ (Dubai) für{" "}
+                        bei Cloud Station LLC FZ (Dubai), einschließlich{" "}
                         <span className="font-semibold">
-                          Enterprise Cloud-Lösungen
+                          Zahlungs- und Abonnement-Systemen
                         </span>
+                        . Außerdem Entwicklung eines automatisierten Dienstes
+                        für{" "}
+                        <span className="font-semibold">
+                          One-Click-Deployment
+                        </span>
+                        .
                       </span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -213,17 +225,6 @@ export default function Resume() {
                         <span className="font-semibold">
                           Cloud-Infrastrukturen
                         </span>
-                      </span>
-                    </li>
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-gray-800 mr-1.5 font-bold group-hover/item:text-gray-900">
-                        •
-                      </span>
-                      <span className="leading-tight">
-                        <span className="font-bold">
-                          Entwicklung und Umsetzung
-                        </span>{" "}
-                        der technischen Vision und Strategie für das Unternehmen
                       </span>
                     </li>
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -836,10 +837,7 @@ export default function Resume() {
                       PHP
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      Go
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded">
-                      Java
+                      Golang
                     </span>
                   </div>
                 </div>
@@ -902,9 +900,6 @@ export default function Resume() {
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       Redis
                     </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded">
-                      ElasticSearch
-                    </span>
                   </div>
                 </div>
 
@@ -921,9 +916,6 @@ export default function Resume() {
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       Docker
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      Kubernetes
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       CI/CD
@@ -952,9 +944,6 @@ export default function Resume() {
                       RESTful APIs
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      GraphQL
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       Event-Driven Architecture
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
@@ -964,16 +953,7 @@ export default function Resume() {
                       TDD
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      DDD
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       Clean Architecture
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      SOLID Principles
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      Design Patterns
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       Objektorientierte Programmierung
@@ -1030,7 +1010,7 @@ export default function Resume() {
                     <span className="text-blue-500 mr-2 text-base">🏆</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">
-                        Zertifizierter Micro Developer
+                        Zertifizierter Micro1.ai Developer
                       </span>
                       <p className="text-xs text-gray-600 leading-tight mt-1">
                         Zertifiziert durch micro1.ai - Weltbester KI-Recruiter
