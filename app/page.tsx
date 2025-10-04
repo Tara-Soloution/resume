@@ -54,7 +54,7 @@ export default function Resume() {
               <div className="space-y-1.5 text-gray-600 text-xs pl-1">
                 <div className="flex flex-wrap items-center gap-3">
                   <span>Phone: +49 1578 4246219</span>
-                  <span>Email: abbas.ataie.montazer@gmail.com</span>
+                  <span>Email: itsabbas.ataie@gmail.com</span>
 
                   <a
                     href="https://www.ataie.me"
@@ -168,7 +168,7 @@ export default function Resume() {
                     Cloud Station LLC FZ (Dubai) - CloudStation.io
                   </div>
                   <div className="text-xs text-gray-600 font-medium mb-1">
-                    Oct 2022 – Present | Remote
+                    Oct 2022 – Aug 2025 | Remote
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -1048,7 +1048,7 @@ export default function Resume() {
                     <span className="text-blue-500 mr-2 text-base">🏆</span>
                     <div className="flex-1">
                       <span className="font-bold group-hover:text-blue-600 transition-colors">
-                        Certified Micro Developer
+                        Certified Micro1 Developer
                       </span>
                       <p className="text-xs text-gray-600 leading-tight mt-1">
                         Certified by micro1.ai - World's best AI Recruiter for
