@@ -154,10 +154,10 @@ export default function Resume() {
                     Senior Software Entwickler
                   </h3>
                   <div className="text-gray-700 font-medium text-xs mb-0.5">
-                    Cloud Station LLC FZ (Dubai) – CloudStation.io
+                    Cloud Station LLC FZ (Dubai) – cloud-station.io
                   </div>
                   <div className="text-xs text-gray-600 font-medium mb-1">
-                    Okt. 2022 – heute | Remote
+                    Okt. 2022 – Aug. 2025 | Remote
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -253,7 +253,7 @@ export default function Resume() {
                     Senior Full Stack Entwickler
                   </h3>
                   <div className="text-blue-600 font-medium text-xs mb-0.5">
-                    Listoli LLC, USA
+                    Listoli LLC, USA (www.listoli.com)
                   </div>
                   <div className="text-xs text-gray-600 font-medium mb-1">
                     Okt. 2022 – Dez. 2023 | Remote
