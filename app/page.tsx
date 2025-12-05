@@ -48,8 +48,7 @@ export default function Resume() {
                 <div className="absolute -bottom-2 left-0 w-24 h-1 bg-blue-600"></div>
               </div>
               <h2 className="text-lg font-medium text-gray-700 pl-1">
-                Senior Softwareentwickler | Full Stack Engineer |
-                Cloud-Architekt
+                Softwareentwickler | Full Stack Engineer
               </h2>
               <div className="space-y-1.5 text-gray-600 text-xs pl-1">
                 <div className="flex flex-wrap items-center gap-3">
@@ -114,8 +113,8 @@ export default function Resume() {
             ZUSAMMENFASSUNG
           </h2>
           <p className="text-xs text-gray-600">
-            Senior Softwareentwickler und Technischer Leiter mit über fünf
-            Jahren Erfahrung in der Entwicklung und Skalierung von
+            Softwareentwickler und Technischer Leiter mit über fünf Jahren
+            Erfahrung in der Entwicklung und Skalierung von
             Unternehmensanwendungen. Derzeit im Masterstudium Data Science an
             der University of Europe for Applied Sciences. Nachgewiesene
             Expertise in Full-Stack-Entwicklung, Cloud-Architektur und
@@ -123,8 +122,8 @@ export default function Resume() {
             TypeScript, Microservices und Cloud-Technologien. Erfolgreiche
             Leitung von Teams und Umsetzung technischer Strategien zur
             Entwicklung skalierbarer und wartbarer Softwarelösungen. Aktuell
-            Senior Software Engineer bei CloudStation.io mit Fokus auf
-            innovative Cloud-Lösungen und Enterprise-Architektur.
+            Software Engineer bei CloudStation.io mit Fokus auf innovative
+            Cloud-Lösungen und Enterprise-Architektur.
           </p>
 
           <div className="mt-3">
@@ -146,12 +145,12 @@ export default function Resume() {
                 BERUFLICHE ERFAHRUNG
               </h2>
 
-              {/* Senior Software Engineer Position */}
+              {/* Software Engineer Position */}
               <div className="mb-2 relative group hover:bg-gray-50 rounded-lg transition-colors duration-300">
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gray-800 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-1.5">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-gray-900 transition-colors">
-                    Senior Software Entwickler
+                    Full Stack Entwickler
                   </h3>
                   <div className="text-gray-700 font-medium text-xs mb-0.5">
                     Cloud Station LLC FZ (Dubai) – cloud-station.io
@@ -245,12 +244,12 @@ export default function Resume() {
                 </div>
               </div>
 
-              {/* Senior Fullstack Position */}
+              {/* Fullstack Position */}
               <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-1.5">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Senior Full Stack Entwickler
+                    Full Stack Entwickler
                   </h3>
                   <div className="text-blue-600 font-medium text-xs mb-0.5">
                     Listoli LLC, USA (www.listoli.com)
@@ -676,56 +675,6 @@ export default function Resume() {
                     </div>
                   </div>
                 </div>
-                <div className="group">
-                  <div className="text-xs text-gray-700 flex items-start">
-                    <span className="text-blue-500 mr-1.5 font-bold">•</span>
-                    <div className="flex-1">
-                      <span className="font-bold group-hover:text-blue-600 transition-colors">
-                        5th Wave
-                      </span>
-                      <p className="text-xs text-gray-600 leading-tight mt-0.5">
-                        <span className="font-bold">
-                          KI-basierte Sprachtransformationsplattform
-                        </span>{" "}
-                        für mehrsprachiges Voice-Cloning unter Beibehaltung
-                        individueller Stimmmerkmale.{" "}
-                        <span className="font-semibold">
-                          Implementierung von Echtzeit-Sprachverarbeitung
-                        </span>{" "}
-                        mit fortschrittlichen KI-Algorithmen für perfekte
-                        Stimmreplikation.
-                      </p>
-                      <div className="flex flex-wrap gap-1 mt-1">
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          KI/ML
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Python
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Node.js
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Echtzeitverarbeitung
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          API-Entwicklung
-                        </span>
-                      </div>
-                      <a
-                        href="https://wave.cloud-station.io"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
-                      >
-                        <span>🔗</span>
-                        <span className="hover:underline">
-                          wave.cloud-station.io
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
 
                 <div className="group">
                   <div className="text-xs text-gray-700 flex items-start">
@@ -822,22 +771,19 @@ export default function Resume() {
                   </h3>
                   <div className="text-xs text-gray-600 leading-relaxed">
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      Node.js
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       JavaScript
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       TypeScript
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
+                      Node.js
+                    </span>
+                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       Python
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       PHP
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      Golang
                     </span>
                   </div>
                 </div>
@@ -854,9 +800,6 @@ export default function Resume() {
                       Next.js
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      Node.js
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       NestJS
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
@@ -866,13 +809,7 @@ export default function Resume() {
                       React Native
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      Django
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       FastAPI
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      Flask
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded">
                       Laravel
@@ -947,9 +884,6 @@ export default function Resume() {
                       Event-Driven Architecture
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
-                      Agile/Scrum
-                    </span>
-                    <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
                       TDD
                     </span>
                     <span className="inline-block px-1.5 py-0.5 bg-gray-50 text-gray-700 rounded mr-1.5">
@@ -993,7 +927,7 @@ export default function Resume() {
                     <span className="font-medium text-xs">Deutsch</span>
                   </div>
                   <span className="text-xs font-semibold text-blue-700">
-                    Grundkenntnisse (A2)
+                    Grundkenntnisse (B1)
                   </span>
                 </div>
               </div>
