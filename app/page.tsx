@@ -48,8 +48,7 @@ export default function Resume() {
                 <div className="absolute -bottom-2 left-0 w-24 h-1 bg-blue-600"></div>
               </div>
               <h2 className="text-lg font-medium text-gray-700 pl-1">
-                Senior Software Developer | Full Stack Engineer | Cloud
-                Architect
+                Software Developer | Full Stack Engineer
               </h2>
               <div className="space-y-1.5 text-gray-600 text-xs pl-1">
                 <div className="flex flex-wrap items-center gap-3">
@@ -117,7 +116,7 @@ export default function Resume() {
           </h2>
           <p className="text-xs text-gray-600">
             <span className="font-medium">
-              Senior Software Developer and Technical Lead
+              Software Developer and Technical Lead
             </span>{" "}
             with over 5 years of experience in developing and scaling enterprise
             applications. Currently pursuing a Master's in Data Science at the
@@ -132,7 +131,7 @@ export default function Resume() {
             <span className="font-semibold">Cloud Technologies</span>.
             Successful leadership of teams and implementation of technical
             strategies for developing scalable and maintainable software
-            solutions. Currently Senior Software Engineer at{" "}
+            solutions. Currently Software Engineer at{" "}
             <span className="font-semibold">CloudStation.io</span> with focus on
             innovative cloud solutions and enterprise architecture.
           </p>
@@ -162,10 +161,10 @@ export default function Resume() {
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gray-800 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-1.5">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-gray-900 transition-colors">
-                    Senior Software Engineer
+                    Software Engineer
                   </h3>
                   <div className="text-gray-700 font-medium text-xs mb-0.5">
-                    Cloud Station LLC FZ (Dubai) - CloudStation.io
+                    Cloud Station LLC FZ (Dubai) - cloud-station.io
                   </div>
                   <div className="text-xs text-gray-600 font-medium mb-1">
                     Oct 2022 – Aug 2025 | Remote
@@ -260,12 +259,12 @@ export default function Resume() {
                 </div>
               </div>
 
-              {/* Senior Fullstack Position */}
+              {/* Fullstack Position */}
               <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-3 py-1.5">
                   <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Senior Full Stack Developer
+                    Full Stack Developer
                   </h3>
                   <div className="text-blue-600 font-medium text-xs mb-0.5">
                     Listoli LLC, USA

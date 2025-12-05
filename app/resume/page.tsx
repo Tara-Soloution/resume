@@ -32,7 +32,7 @@ export default function ResumePage() {
               </div>
 
               <h2 className="text-2xl font-medium text-gray-700 pl-1">
-                Senior Software-Entwickler
+                Software-Entwickler
               </h2>
 
               <div className="space-y-3 text-gray-600 text-base pl-1">
@@ -169,12 +169,12 @@ export default function ResumePage() {
                 </div>
               </div>
 
-              {/* Senior Fullstack Position */}
+              {/* Fullstack Position */}
               <div className="mb-4 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
                 <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
                 <div className="pl-4 py-2">
                   <h3 className="text-lg font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Senior Fullstack-Entwickler
+                    Fullstack-Entwickler
                   </h3>
                   <div className="text-blue-600 font-medium text-base mb-0.5">
                     Listoli LLC, USA
