@@ -1152,52 +1152,7 @@ export default function Resume() {
                 </div>
               </div>
             </div>
-            <div className="group">
-              <div className="text-xs text-gray-700 flex items-start">
-                <span className="text-blue-500 mr-1.5 font-bold">▹</span>
-                <div className="flex-1">
-                  <span className="font-bold group-hover:text-blue-600 transition-colors">
-                    5th Wave - Voice Transformation Platform
-                  </span>
-                  <p className="text-xs text-gray-600 leading-tight mt-0.5">
-                    <span className="font-bold">
-                      Revolutionäre KI-gestützte Sprachtransformationsplattform
-                    </span>{" "}
-                    für mehrsprachige Kommunikation mit{" "}
-                    <span className="font-semibold">
-                      perfekter Stimmklonierung
-                    </span>{" "}
-                    und{" "}
-                    <span className="font-semibold">Echtzeitverarbeitung</span>
-                  </p>
-                  <div className="flex flex-wrap gap-1 mt-1">
-                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                      AI/ML
-                    </span>
-                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                      Voice Processing
-                    </span>
-                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                      Real-time Systems
-                    </span>
-                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                      Cloud Architecture
-                    </span>
-                  </div>
-                  <a
-                    href="https://wave.cloud-station.io"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
-                  >
-                    <span>🔗</span>
-                    <span className="hover:underline">
-                      wave.cloud-station.io
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
+            \
             <div className="group">
               <div className="text-xs text-gray-700 flex items-start">
                 <span className="text-blue-500 mr-1.5 font-bold">▹</span>
@@ -1238,56 +1193,17 @@ export default function Resume() {
                 </div>
               </div>
             </div>
-
-            <div className="group">
-              <div className="text-xs text-gray-700 flex items-start">
-                <span className="text-blue-500 mr-1.5 font-bold">▹</span>
-                <div className="flex-1">
-                  <span className="font-bold group-hover:text-blue-600 transition-colors">
-                    Ahsen Elite E-Commerce
-                  </span>
-                  <p className="text-xs text-gray-600 leading-tight mt-0.5">
-                    Web- und Mobile-Anwendungen mit sicherer Zahlungsabwicklung
-                    und Bestellverwaltung für optimale Benutzererfahrung.
-                  </p>
-                  <div className="flex flex-wrap gap-1 mt-1">
-                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
-                      React.js
-                    </span>
-                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
-                      React Native
-                    </span>
-                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
-                      Next.js
-                    </span>
-                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
-                      Node.js
-                    </span>
-                  </div>
-                  <a
-                    href="https://ahsenelite.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
-                  >
-                    <span>🔗</span>
-                    <span className="hover:underline">ahsenelite.com</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-
+            \
             <div className="group">
               <div className="text-xs text-gray-700 flex items-start">
                 <span className="text-blue-500 mr-1.5 font-bold">▹</span>
                 <div className="flex-1">
                   <span className="font-bold">
-                    Pflanzenerkrankungs-Erkennungssystem
+                    Plant Disease Detection System
                   </span>
                   <p className="text-xs text-gray-600 leading-tight mt-0.5">
-                    KI-gestütztes Deep-Learning-System zur Erkennung von
-                    Pflanzenkrankheiten mit Raspberry Pi und Kamera für
-                    Echtzeitdiagnose.
+                    AI-powered deep learning system for detecting plant diseases
+                    using Raspberry Pi and camera for real-time diagnosis.
                   </p>
                   <div className="flex flex-wrap gap-1 mt-1">
                     <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
@@ -1307,18 +1223,6 @@ export default function Resume() {
               </div>
             </div>
           </div>
-        </section>
-
-        {/* References Section */}
-        <section className="mt-4 mb-6">
-          <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
-            REFERENZEN
-          </h2>
-          <p className="text-xs text-gray-600">
-            Referenzen sind auf Anfrage verfügbar. Bitte kontaktieren Sie mich
-            gerne, wenn Sie weitere Details oder professionelle Empfehlungen von
-            früheren Arbeitgebern, Kollegen oder akademischen Mentoren wünschen.
-          </p>
         </section>
 
         {/* Action Buttons */}
