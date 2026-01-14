@@ -1,18 +1,19 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { Printer } from "lucide-react"
+import { Printer } from "lucide-react";
 
 export function PrintButton() {
   const handlePrint = () => {
-    window.print()
-  }
+    window.print();
+  };
 
   return (
-    <Button onClick={handlePrint} variant="outline" className="print:hidden flex items-center gap-2">
-      <Printer className="h-4 w-4" />
-      Drucken
-    </Button>
-  )
+    <button
+      onClick={handlePrint}
+      className="bg-gray-600 hover:bg-gray-700 text-white px-5 py-1.5 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg flex items-center"
+    >
+      <Printer className="w-4 h-4 mr-1.5" />
+      Print
+    </button>
+  );
 }
-

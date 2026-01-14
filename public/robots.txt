@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.ataie.me/sitemap.xml
+
+# Crawl-delay (optional, adjust as needed)
+Crawl-delay: 1
