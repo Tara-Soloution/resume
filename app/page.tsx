@@ -94,7 +94,7 @@ export default function Resume() {
                     "https://www.ataie.me"
                   )}`}
                   alt="QR Code"
-                  className="w-full h-full"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="relative w-28 h-28">
@@ -729,6 +729,7 @@ export default function Resume() {
               </div>
             </section>
           </div>
+          {/* Projects Section - Adjusted position */}
 
           {/* Right Column */}
           <div className="col-span-1">
@@ -1098,6 +1099,227 @@ export default function Resume() {
             </section>
           </div>
         </div>
+        <section className="mt-4">
+          <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
+            PROJEKTE
+          </h2>
+          <div className="space-y-2">
+            <div className="group">
+              <div className="text-xs text-gray-700 flex items-start">
+                <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                <div className="flex-1">
+                  <span className="font-bold group-hover:text-blue-600 transition-colors">
+                    Cloud Station Plattform
+                  </span>
+                  <p className="text-xs text-gray-600 leading-tight mt-0.5">
+                    <span className="font-bold">
+                      Skalierbare Enterprise-Cloud-Services-Plattform
+                    </span>{" "}
+                    mit globaler Nutzerbasis.{" "}
+                    <span className="font-semibold">
+                      Implementierung von Frontend und Backend
+                    </span>{" "}
+                    mit Fokus auf Leistung.
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-1">
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      React.js
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      Next.js
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      Node.js
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      Kafka
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      Nats
+                    </span>
+                  </div>
+                  <a
+                    href="https://www.cloud-station.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
+                  >
+                    <span>🔗</span>
+                    <span className="hover:underline">
+                      www.cloud-station.io
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="group">
+              <div className="text-xs text-gray-700 flex items-start">
+                <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                <div className="flex-1">
+                  <span className="font-bold group-hover:text-blue-600 transition-colors">
+                    5th Wave - Voice Transformation Platform
+                  </span>
+                  <p className="text-xs text-gray-600 leading-tight mt-0.5">
+                    <span className="font-bold">
+                      Revolutionäre KI-gestützte Sprachtransformationsplattform
+                    </span>{" "}
+                    für mehrsprachige Kommunikation mit{" "}
+                    <span className="font-semibold">
+                      perfekter Stimmklonierung
+                    </span>{" "}
+                    und{" "}
+                    <span className="font-semibold">Echtzeitverarbeitung</span>
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-1">
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      AI/ML
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      Voice Processing
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      Real-time Systems
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      Cloud Architecture
+                    </span>
+                  </div>
+                  <a
+                    href="https://wave.cloud-station.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
+                  >
+                    <span>🔗</span>
+                    <span className="hover:underline">
+                      wave.cloud-station.io
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="group">
+              <div className="text-xs text-gray-700 flex items-start">
+                <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                <div className="flex-1">
+                  <span className="font-bold group-hover:text-blue-600 transition-colors">
+                    Tara Solutions Cloud
+                  </span>
+                  <p className="text-xs text-gray-600 leading-tight mt-0.5">
+                    <span className="font-bold">
+                      Entwicklung der offiziellen Website
+                    </span>{" "}
+                    von Tara Solutions Inc. mit Fokus auf{" "}
+                    <span className="font-semibold">Leistungsoptimierung</span>{" "}
+                    und <span className="font-semibold">Sicherheit</span>
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-1">
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      Next.js
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      React.js
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
+                      Node.js
+                    </span>
+                  </div>
+                  <a
+                    href="https://www.tarasolutions.cloud"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
+                  >
+                    <span>🔗</span>
+                    <span className="hover:underline">
+                      www.tarasolutions.cloud
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="group">
+              <div className="text-xs text-gray-700 flex items-start">
+                <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                <div className="flex-1">
+                  <span className="font-bold group-hover:text-blue-600 transition-colors">
+                    Ahsen Elite E-Commerce
+                  </span>
+                  <p className="text-xs text-gray-600 leading-tight mt-0.5">
+                    Web- und Mobile-Anwendungen mit sicherer Zahlungsabwicklung
+                    und Bestellverwaltung für optimale Benutzererfahrung.
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-1">
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
+                      React.js
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
+                      React Native
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
+                      Next.js
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
+                      Node.js
+                    </span>
+                  </div>
+                  <a
+                    href="https://ahsenelite.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
+                  >
+                    <span>🔗</span>
+                    <span className="hover:underline">ahsenelite.com</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="group">
+              <div className="text-xs text-gray-700 flex items-start">
+                <span className="text-blue-500 mr-1.5 font-bold">▹</span>
+                <div className="flex-1">
+                  <span className="font-bold">
+                    Pflanzenerkrankungs-Erkennungssystem
+                  </span>
+                  <p className="text-xs text-gray-600 leading-tight mt-0.5">
+                    KI-gestütztes Deep-Learning-System zur Erkennung von
+                    Pflanzenkrankheiten mit Raspberry Pi und Kamera für
+                    Echtzeitdiagnose.
+                  </p>
+                  <div className="flex flex-wrap gap-1 mt-1">
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
+                      Deep Learning
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
+                      Raspberry Pi
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
+                      Python
+                    </span>
+                    <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs">
+                      Computer Vision
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* References Section */}
+        <section className="mt-4 mb-6">
+          <h2 className="text-base font-bold border-b pb-1 mb-2 text-gray-800">
+            REFERENZEN
+          </h2>
+          <p className="text-xs text-gray-600">
+            Referenzen sind auf Anfrage verfügbar. Bitte kontaktieren Sie mich
+            gerne, wenn Sie weitere Details oder professionelle Empfehlungen von
+            früheren Arbeitgebern, Kollegen oder akademischen Mentoren wünschen.
+          </p>
+        </section>
 
         {/* Action Buttons */}
         <div className="mt-8 mb-6 flex justify-center gap-4 print:hidden">
