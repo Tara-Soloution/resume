@@ -132,9 +132,7 @@ export default function Resume() {
             <span className="font-semibold">Cloud Technologies</span>.
             Successful leadership of teams and implementation of technical
             strategies for developing scalable and maintainable software
-            solutions. Currently Senior Software Engineer at{" "}
-            <span className="font-semibold">CloudStation.io</span> with focus on
-            innovative cloud solutions and enterprise architecture.
+            solutions.
           </p>
           {/* Core Competencies Section (now inside summary) */}
           <div className="mt-3">
@@ -165,10 +163,10 @@ export default function Resume() {
                     Senior Software Engineer
                   </h3>
                   <div className="text-gray-700 font-medium text-xs mb-0.5">
-                    Cloud Station LLC FZ (Dubai) - CloudStation.io
+                    Cloud Station LLC FZ (Dubai) - www.cloud-station.io
                   </div>
                   <div className="text-xs text-gray-600 font-medium mb-1">
-                    Oct 2022 – Present | Remote
+                    Oct 2022 – Aug 2025 | Remote
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -500,7 +498,7 @@ export default function Resume() {
                     University of Europe for Applied Sciences
                   </div>
                   <div className="text-xs text-gray-600 font-medium mb-1">
-                    March 2025 – Present
+                    March 2025 – February 2026
                   </div>
                   <ul className="space-y-0.5 text-gray-700 text-xs">
                     <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
@@ -596,49 +594,6 @@ export default function Resume() {
                   </ul>
                 </div>
               </div>
-
-              <div className="mb-2 relative group hover:bg-blue-50/30 rounded-lg transition-colors duration-300">
-                <div className="absolute left-0 top-0 w-0.5 h-full bg-gradient-to-b from-blue-500 to-cyan-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity"></div>
-                <div className="pl-3 py-1.5">
-                  <h3 className="text-sm font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
-                    Abdul Rahim Shahid High School
-                  </h3>
-                  <div className="text-blue-600 font-medium text-xs mb-0.5">
-                    Kabul
-                  </div>
-                  <div className="text-xs text-gray-600 font-medium mb-1">
-                    Graduation: 2015
-                  </div>
-                  <ul className="space-y-0.5 text-gray-700 text-xs">
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        •
-                      </span>
-                      <span className="leading-tight">
-                        Graduation Score:{" "}
-                        <span className="font-semibold">93.44%</span>
-                      </span>
-                    </li>
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        •
-                      </span>
-                      <span className="leading-tight">
-                        Among top performers in class
-                      </span>
-                    </li>
-                    <li className="flex items-start group/item hover:bg-white/80 p-0.5 rounded-lg transition-all duration-200">
-                      <span className="text-blue-500 mr-1.5 font-bold group-hover/item:text-blue-600">
-                        •
-                      </span>
-                      <span className="leading-tight">
-                        Outstanding performance in Science, Mathematics, and
-                        Languages
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </section>
 
             {/* Projects Section - Adjusted position */}
@@ -688,56 +643,6 @@ export default function Resume() {
                         <span>🔗</span>
                         <span className="hover:underline">
                           www.cloud-station.io
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="group">
-                  <div className="text-xs text-gray-700 flex items-start">
-                    <span className="text-blue-500 mr-1.5 font-bold">•</span>
-                    <div className="flex-1">
-                      <span className="font-bold group-hover:text-blue-600 transition-colors">
-                        5th Wave
-                      </span>
-                      <p className="text-xs text-gray-600 leading-tight mt-0.5">
-                        <span className="font-bold">
-                          AI-Powered Voice Transformation Platform
-                        </span>{" "}
-                        enabling multilingual voice cloning while preserving
-                        unique voice characteristics.{" "}
-                        <span className="font-semibold">
-                          Implementation of real-time voice processing
-                        </span>{" "}
-                        with advanced AI algorithms for perfect voice
-                        replication.
-                      </p>
-                      <div className="flex flex-wrap gap-1 mt-1">
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          AI/ML
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Python
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Node.js
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          Real-time Processing
-                        </span>
-                        <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded text-xs font-semibold">
-                          API Development
-                        </span>
-                      </div>
-                      <a
-                        href="https://wave.cloud-station.io"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs text-blue-500 hover:text-blue-600 flex items-center gap-1 mt-1"
-                      >
-                        <span>🔗</span>
-                        <span className="hover:underline">
-                          wave.cloud-station.io
                         </span>
                       </a>
                     </div>
