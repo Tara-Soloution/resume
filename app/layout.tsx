@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     "NestJS",
     "React Native",
   ],
-  authors: [{ name: "Abbas Ataie", url: "https://www.ataie.me" }],
+  authors: [{ name: "Abbas Ataie", url: "https://resume.ataie.me" }],
   creator: "Abbas Ataie",
   publisher: "Abbas Ataie",
-  metadataBase: new URL("https://www.ataie.me"),
+  metadataBase: new URL("https://resume.ataie.me"),
   alternates: {
     canonical: "/",
     languages: {
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "profile",
     locale: "de_DE",
-    url: "https://www.ataie.me",
+    url: "https://resume.ataie.me",
     siteName: "Abbas Ataie - Resume",
     title: "Abbas Ataie - Senior Software Engineer | Full Stack Developer",
     description:
