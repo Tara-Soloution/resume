@@ -3,29 +3,36 @@ export const resumeData = {
     name: "Ghulam Abbas Ataie",
     fullName: "Ghulam Abbas Ataie",
     title: "Full-Stack Software Engineer",
-    subtitle: "React · Node.js · TypeScript | CI/CD · Clean Architecture",
+    // UPDATED: make Python/FastAPI + React/Next.js + AI obvious at a glance
+    subtitle: "Python (FastAPI) · React/Next.js · TypeScript | LLM/RAG · CI/CD · Docker",
     location: "Berlin, Germany",
     workAuthorization: "Valid German Work Authorization",
     phone: "+49 1578 4246219",
     email: "abbas.ataie.montazer@gmail.com",
     portfolio: "https://www.ataie.me",
     github: "https://github.com/abbasatayee",
-    linkedin: "https://www.linkedin.com/in/abbas-ataie-72a4431b9/",
+    linkedin: "https://www.linkedin.com/in/abbas-ataie/",
     profileImage: "/profile/abbas.jpg",
   },
+
   summary: {
     title: "Full-Stack Software Engineer",
+    // UPDATED: reflect Python/FastAPI + AI/LLM work while keeping it concise
     description:
-      "with 5+ years of hands-on experience building production applications in TypeScript. Strong focus on React and Node.js, clean code, and maintainable architecture. Proven track record in cross-functional teams delivering features end-to-end. Passionate about DevOps practices, automated testing, and continuous improvement.",
+      "Full-stack engineer with 5+ years of experience shipping production applications with React/Next.js and TypeScript, and building backend APIs with Node.js and Python (FastAPI). Strong focus on clean architecture, automated testing, CI/CD, and DevOps. Experienced delivering AI-powered features including RAG pipelines and customer-support automation.",
     coreCompetencies: [
-      "React & Node.js (TypeScript)",
+      // UPDATED: include FastAPI + AI
+      "React & Next.js (TypeScript)",
+      "Python (FastAPI) · REST APIs",
+      "LLMs · RAG · Vector Search",
       "Jest · Cypress · E2E Testing",
       "CI/CD (GitHub Actions)",
+      "Docker · AWS & GCP",
       "Clean Code & SOLID",
-      "AWS & GCP",
       "Cross-functional Collaboration",
     ],
   },
+
   experience: [
     {
       title: "Full-Stack Software Engineer",
@@ -80,15 +87,30 @@ export const resumeData = {
           bold: "Clean architecture",
           text: "— applied SOLID principles, refactoring, and code quality standards in cross-functional team.",
         },
+
+        // UPDATED: split and make Python/FastAPI explicit + AI details concrete
         {
-          bold: "AI Native apps and workflows",
-          text: "for clients — automated customer support and repetitive tasks such as",
-          semibold: "customer reviews segmentation",
-          text2: ".",
+          bold: "AI customer support automation",
+          text: "— built",
+          semibold: "Python/FastAPI",
+          text2:
+            "services to automate customer support workflows; integrated LLM-powered classification and response assistance into product tooling.",
+        },
+        {
+          bold: "RAG services and APIs",
+          text: "— implemented",
+          semibold: "FastAPI",
+          text2:
+            "endpoints for ingestion and retrieval with embeddings + vector search; integrated with frontend UX for AI-assisted knowledge querying.",
+        },
+        {
+          bold: "Customer reviews segmentation",
+          text: "— delivered AI workflow for categorizing and analyzing reviews to reduce manual ops effort.",
         },
       ],
       isPrimary: true,
     },
+
     {
       title: "Full-Stack Developer",
       company: "Listoli LLC, USA",
@@ -116,9 +138,10 @@ export const resumeData = {
           text2: "and",
           semibold2: "GCP",
           text3: "— removed manual deployment work, increased developer productivity by 50%.",
-        }
+        },
       ],
     },
+
     {
       title: "Full Stack Developer",
       company: "Click.af, Kabul",
@@ -143,6 +166,7 @@ export const resumeData = {
         },
       ],
     },
+
     {
       title: "Full Stack Developer",
       company: "BlueBit Networking Services, Kabul",
@@ -157,6 +181,7 @@ export const resumeData = {
       ],
     },
   ],
+
   education: [
     {
       degree: "Master in Data Science",
@@ -173,11 +198,10 @@ export const resumeData = {
       degree: "Bachelor in Computer Science",
       institution: "Kabul Polytechnic University",
       period: "March 2016 – August 2019",
-      highlights: [
-        { text: "Graduated with second place in class" },
-      ],
+      highlights: [{ text: "Graduated with second place in class" }],
     },
   ],
+
   projects: [
     {
       name: "Cloud Station Platform",
@@ -186,47 +210,47 @@ export const resumeData = {
       tags: ["React", "Node.js", "TypeScript", "CI/CD", "Docker"],
       url: "https://www.cloud-station.io",
     },
+
+    // UPDATED: include FastAPI + Next.js UI + evaluation/serving
     {
       name: "Movie Recommendation Engine",
       description:
-        "University project — real-world recommendation system for movies using collaborative filtering and content-based approaches. Built end-to-end with scalable data pipelines and evaluation metrics.",
-      tags: ["Python", "Machine Learning", "Recommendation Systems", "Data Science"],
+        "Recommendation system using collaborative filtering and content-based approaches. Built with Python and exposed via FastAPI for serving and evaluation; Next.js UI for exploration and metrics.",
+      tags: ["Python", "FastAPI", "Next.js", "Machine Learning", "Recommendation Systems", "Evaluation"],
     },
+
+    // UPDATED: include FastAPI explicitly + production-style wording
     {
       name: "RAG Pipeline for Historical Data",
       description:
-        "University project — Retrieval-Augmented Generation pipeline for querying and analyzing historical documents. End-to-end system with embeddings, vector search, and LLM integration.",
-      tags: ["Python", "RAG", "LLMs", "Vector Search", "NLP"],
+        "Retrieval-Augmented Generation system for querying historical documents. Built with Python and FastAPI APIs for ingestion and query; embeddings + vector search with LLM integration for grounded answers.",
+      tags: ["Python", "FastAPI", "RAG", "LLMs", "Vector Search", "NLP"],
     },
+
     {
       name: "Highly Available Website on AWS",
       description:
         "Designed and structured a highly available website on AWS. Terraform as IaC for provisioning; Ansible for server configuration. Load Balancer, VPC networking, Auto Scaling, EC2 — built for resilience and scalability.",
       tags: ["AWS", "Terraform", "Ansible", "IaC", "Load Balancer", "Auto Scaling", "EC2"],
     },
-
   ],
+
   technicalSkills: {
-    languages: [
-      "TypeScript",
-      "JavaScript",
-      "Node.js",
-      "Python",
-    ],
+    languages: ["TypeScript", "JavaScript", "Node.js", "Python"],
+
+    // UPDATED: add FastAPI (and Django optional only if you truly used it)
     frameworks: [
       "React",
       "Next.js",
+      "FastAPI",
       "Node.js",
       "NestJS",
       "Express.js",
       "React Native",
     ],
-    databases: [
-      "PostgreSQL",
-      "MongoDB",
-      "Redis",
-      "ElasticSearch",
-    ],
+
+    databases: ["PostgreSQL", "MongoDB", "Redis", "ElasticSearch"],
+
     cloudDevOps: [
       "AWS",
       "GCP",
@@ -237,6 +261,7 @@ export const resumeData = {
       "GitHub Actions",
       "Monitoring & Observability",
     ],
+
     architecture: [
       "Jest",
       "Cypress",
@@ -248,16 +273,17 @@ export const resumeData = {
       "Agile/Scrum",
     ],
   },
+
   languages: [
     { name: "English", level: "Fluent (C1)" },
     { name: "German", level: "Basic (A2)" },
     { name: "Dari", level: "Native" },
   ],
+
   awards: [
     {
       title: "Certified Micro Developer",
-      description:
-        "micro1.ai — technical excellence in software engineering",
+      description: "micro1.ai — technical excellence in software engineering",
       icon: "🏆",
     },
     {
@@ -266,6 +292,7 @@ export const resumeData = {
       icon: "🏆",
     },
   ],
+
   softSkills: [
     "Cross-functional Teamwork",
     "Problem Solving",
@@ -274,11 +301,11 @@ export const resumeData = {
     "Clean Code Mindset",
     "Continuous Learning",
   ],
+
   communityContributions: [
     {
       title: "Roshanayee.com",
-      description:
-        "Educational platform for programming — course development and delivery.",
+      description: "Educational platform for programming — course development and delivery.",
       url: "https://roshanayee.com",
       icon: "🎓",
     },
