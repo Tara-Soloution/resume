@@ -4,7 +4,7 @@ export function ActionButtons() {
   return (
     <div className="mt-8 mb-6 flex justify-center gap-4 print:hidden">
       <a
-        href="/resume.pdf"
+        href="/api/generate-pdf"
         download="resume.pdf"
         className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-1.5 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg flex items-center"
       >

@@ -22,6 +22,14 @@ export function ResumeHeader({ personal }: ResumeHeaderProps) {
             {personal.subtitle}
           </h2>
           <div className="space-y-1.5 text-gray-600 text-xs pl-1">
+            <div className="flex flex-wrap items-center gap-3 font-medium">
+              {personal.location && (
+                <span className="text-gray-800">📍 {personal.location}</span>
+              )}
+              {personal.workAuthorization && (
+                <span className="text-green-700">✓ {personal.workAuthorization}</span>
+              )}
+            </div>
             <div className="flex flex-wrap items-center gap-3">
               <span>Phone: {personal.phone}</span>
               <span>Email: {personal.email}</span>
@@ -72,7 +80,7 @@ export function ResumeHeader({ personal }: ResumeHeaderProps) {
             <div className="absolute inset-0 rounded-lg overflow-hidden">
               <img
                 src={personal.profileImage}
-                alt={`${personal.name} - Senior Software Engineer and Technical Lead`}
+                alt={`${personal.name} - Full-Stack Software Engineer`}
                 className="h-full w-full object-cover object-center"
                 loading="eager"
                 width={112}

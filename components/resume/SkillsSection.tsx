@@ -8,7 +8,7 @@ export function SkillsSection({ skills }: SkillsSectionProps) {
     { title: "Frameworks & Libraries:", items: skills.frameworks },
     { title: "Databases & Storage:", items: skills.databases },
     { title: "Cloud & DevOps:", items: skills.cloudDevOps },
-    { title: "Architecture & Methods:", items: skills.architecture },
+    { title: "Testing & Architecture:", items: skills.architecture },
   ];
 
   return (
