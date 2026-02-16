@@ -2,9 +2,9 @@ export const resumeData = {
   personal: {
     name: "Ghulam Abbas Ataie",
     fullName: "Ghulam Abbas Ataie",
-    title: "Full-Stack Software Engineer",
-    // UPDATED: make Python/FastAPI + React/Next.js + AI obvious at a glance
-    subtitle: "Python (FastAPI) · React/Next.js · TypeScript | LLM/RAG · CI/CD · Docker",
+    title: "Software Engineer (Python/React)",
+    subtitle:
+      "Python (FastAPI) · React/Next.js · TypeScript | APIs (REST/GraphQL) · Data Modeling · Observability · CI/CD · Docker",
     location: "Berlin, Germany",
     workAuthorization: "Valid German Work Authorization",
     phone: "+49 1578 4246219",
@@ -16,19 +16,21 @@ export const resumeData = {
   },
 
   summary: {
-    title: "Full-Stack Software Engineer",
-    // UPDATED: reflect Python/FastAPI + AI/LLM work while keeping it concise
+    title: "Software Engineer (Python/React)",
     description:
-      "Full-stack engineer with 5+ years of experience shipping production applications with React/Next.js and TypeScript, and building backend APIs with Node.js and Python (FastAPI). Strong focus on clean architecture, automated testing, CI/CD, and DevOps. Experienced delivering AI-powered features including RAG pipelines and customer-support automation.",
+      "Product-oriented Software Engineer with 5+ years of experience building scalable backend systems in Python (FastAPI) and Node.js, alongside modern React/Next.js frontends. Experienced designing APIs, data models, and analytics-driven features powering personalization, recommendation, and AI-assisted workflows. Strong focus on clean architecture, automated testing, observability, and CI/CD. Passionate about building data-informed products that deliver measurable user impact.",
     coreCompetencies: [
-      // UPDATED: include FastAPI + AI
+      "Python (FastAPI) · Backend Systems Design",
       "React & Next.js (TypeScript)",
-      "Python (FastAPI) · REST APIs",
+      "API Design (REST, GraphQL)",
+      "Database Design & Data Modeling",
+      "Observability & Monitoring",
+      "Personalization & Recommendation Systems",
       "LLMs · RAG · Vector Search",
       "Jest · Cypress · E2E Testing",
       "CI/CD (GitHub Actions)",
       "Docker · AWS & GCP",
-      "Clean Code & SOLID",
+      "Clean Architecture · SOLID",
       "Cross-functional Collaboration",
     ],
   },
@@ -41,6 +43,13 @@ export const resumeData = {
       location: "Remote",
       period: "Oct 2022 – Aug 2025",
       highlights: [
+        {
+          bold: "End-to-end feature ownership",
+          text:
+            "— scoped, implemented, tested, deployed, and monitored full-stack features across",
+          semibold: "React/Next.js",
+          text2: "and backend APIs in collaboration with product and design stakeholders.",
+        },
         {
           bold: "Full-stack feature development",
           text: "using",
@@ -66,6 +75,11 @@ export const resumeData = {
           text2: "via database restructuring, indexing, and caching.",
         },
         {
+          bold: "Database design & optimization",
+          text:
+            "— designed relational schemas and indexing strategies in PostgreSQL for high-volume APIs; improved query performance and ensured scalable data modeling for growing product features.",
+        },
+        {
           bold: "Automated testing",
           text: "with",
           semibold: "Jest (unit/integration)",
@@ -81,31 +95,37 @@ export const resumeData = {
         },
         {
           bold: "DevOps practices",
-          text: "— Docker, monitoring, observability, and security hardening for production services.",
+          text:
+            "— Docker, monitoring, observability, and security hardening for production services.",
+        },
+        {
+          bold: "Observability & monitoring",
+          text:
+            "— implemented logging, performance monitoring, and error tracking to improve production reliability and reduce incident response time.",
         },
         {
           bold: "Clean architecture",
-          text: "— applied SOLID principles, refactoring, and code quality standards in cross-functional team.",
-        },
-
-        // UPDATED: split and make Python/FastAPI explicit + AI details concrete
-        {
-          bold: "AI customer support automation",
-          text: "— built",
-          semibold: "Python/FastAPI",
-          text2:
-            "services to automate customer support workflows; integrated LLM-powered classification and response assistance into product tooling.",
+          text:
+            "— applied SOLID principles, refactoring, and code quality standards in cross-functional team.",
         },
         {
-          bold: "RAG services and APIs",
-          text: "— implemented",
-          semibold: "FastAPI",
+          bold: "AI-powered customer support platform",
+          text: "— architected and implemented",
+          semibold: "Python/FastAPI backend services",
           text2:
-            "endpoints for ingestion and retrieval with embeddings + vector search; integrated with frontend UX for AI-assisted knowledge querying.",
+            "for automated classification, routing, and LLM-assisted responses; reduced manual triage effort and improved response consistency.",
+        },
+        {
+          bold: "RAG-based knowledge retrieval system",
+          text: "— designed ingestion pipelines, embeddings workflows, and",
+          semibold: "FastAPI query services",
+          text2:
+            "for grounded LLM responses; integrated with frontend to deliver AI-assisted knowledge exploration features.",
         },
         {
           bold: "Customer reviews segmentation",
-          text: "— delivered AI workflow for categorizing and analyzing reviews to reduce manual ops effort.",
+          text:
+            "— delivered AI workflow for categorizing and analyzing reviews to reduce manual operations effort.",
         },
       ],
       isPrimary: true,
@@ -119,7 +139,8 @@ export const resumeData = {
       highlights: [
         {
           bold: "Secure Authentication service",
-          text: "— built and implemented authentication mechanisms; solution",
+          text:
+            "— built and implemented authentication mechanisms; solution",
           semibold: "sold to enterprise companies",
           text2: ".",
         },
@@ -129,7 +150,8 @@ export const resumeData = {
           semibold: "NestJS (Node.js/TypeScript)",
           text2: "and",
           semibold2: "Next.js",
-          text3: "for e-commerce and content management.",
+          text3:
+            "— delivered scalable services and frontend features for e-commerce and content management.",
         },
         {
           bold: "CI/CD automation",
@@ -137,7 +159,8 @@ export const resumeData = {
           semibold: "GitHub Actions",
           text2: "and",
           semibold2: "GCP",
-          text3: "— removed manual deployment work, increased developer productivity by 50%.",
+          text3:
+            "— removed manual deployment work and increased developer productivity by 50%.",
         },
       ],
     },
@@ -150,9 +173,10 @@ export const resumeData = {
       highlights: [
         {
           bold: "Vendor application",
-          text: "— simplified vendor accounting and workflows; vendors could view",
+          text:
+            "— simplified vendor accounting and workflows; vendors could view",
           semibold: "orders per day and analytics",
-          text2: "without manual requests or late responses.",
+          text2: "without manual requests or delayed responses.",
         },
         {
           bold: "Mobile app performance optimization",
@@ -162,7 +186,8 @@ export const resumeData = {
         },
         {
           bold: "React and Node.js",
-          text: "— developed web and mobile features for the e-commerce platform.",
+          text:
+            "— developed web and mobile features for the e-commerce platform.",
         },
       ],
     },
@@ -176,7 +201,8 @@ export const resumeData = {
         {
           text: "Built web applications with",
           semibold: "React.js, Node.js, and Python",
-          text2: "— petition management system with workflow optimization.",
+          text2:
+            "— petition management system with workflow optimization.",
         },
       ],
     },
@@ -206,25 +232,31 @@ export const resumeData = {
     {
       name: "Cloud Station Platform",
       description:
-        "TypeScript-based deployment platform with React frontend and Node.js backend. CI/CD with GitHub Actions, Docker, and automated testing.",
-      tags: ["React", "Node.js", "TypeScript", "CI/CD", "Docker"],
+        "TypeScript-based deployment platform with React frontend and Node.js backend. CI/CD with GitHub Actions, Docker, automated testing, and production monitoring.",
+      tags: ["React", "Node.js", "TypeScript", "CI/CD", "Docker", "Monitoring"],
       url: "https://www.cloud-station.io",
     },
 
-    // UPDATED: include FastAPI + Next.js UI + evaluation/serving
     {
       name: "Movie Recommendation Engine",
       description:
-        "Recommendation system using collaborative filtering and content-based approaches. Built with Python and exposed via FastAPI for serving and evaluation; Next.js UI for exploration and metrics.",
-      tags: ["Python", "FastAPI", "Next.js", "Machine Learning", "Recommendation Systems", "Evaluation"],
+        "Personalized recommendation engine using collaborative filtering and content-based ranking. Built in Python with FastAPI serving layer and evaluation metrics (precision@k, recall@k). Next.js UI for exploration and performance analysis. Focused on personalization and predictive modeling.",
+      tags: [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Machine Learning",
+        "Recommendation Systems",
+        "Evaluation",
+        "Personalization",
+      ],
     },
 
-    // UPDATED: include FastAPI explicitly + production-style wording
     {
       name: "RAG Pipeline for Historical Data",
       description:
-        "Retrieval-Augmented Generation system for querying historical documents. Built with Python and FastAPI APIs for ingestion and query; embeddings + vector search with LLM integration for grounded answers.",
-      tags: ["Python", "FastAPI", "RAG", "LLMs", "Vector Search", "NLP"],
+        "Production-style Retrieval-Augmented Generation system with document ingestion pipeline, embedding storage, and FastAPI query APIs. Implemented vector search and retrieval evaluation with LLM integration for grounded responses.",
+      tags: ["Python", "FastAPI", "RAG", "LLMs", "Vector Search", "NLP", "Evaluation"],
     },
 
     {
@@ -236,20 +268,25 @@ export const resumeData = {
   ],
 
   technicalSkills: {
-    languages: ["TypeScript", "JavaScript", "Node.js", "Python"],
+    languages: ["Python", "TypeScript", "JavaScript"],
 
-    // UPDATED: add FastAPI (and Django optional only if you truly used it)
     frameworks: [
+      "FastAPI",
       "React",
       "Next.js",
-      "FastAPI",
       "Node.js",
       "NestJS",
       "Express.js",
       "React Native",
     ],
 
-    databases: ["PostgreSQL", "MongoDB", "Redis", "ElasticSearch"],
+    databases: [
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "ElasticSearch",
+      "Relational Data Modeling",
+    ],
 
     cloudDevOps: [
       "AWS",
@@ -260,17 +297,22 @@ export const resumeData = {
       "CI/CD",
       "GitHub Actions",
       "Monitoring & Observability",
+      "Logging & Monitoring",
+      "Performance Optimization",
     ],
 
     architecture: [
       "Jest",
       "Cypress",
       "Unit / Integration / E2E Testing",
-      "Clean Architecture",
-      "SOLID Principles",
+      "API Design (REST, GraphQL)",
       "RESTful APIs",
       "Microservices",
+      "Clean Architecture",
+      "SOLID Principles",
       "Agile/Scrum",
+      "Data-Driven Product Development",
+      "AI-Assisted Development (GitHub Copilot, Cursor)",
     ],
   },
 
@@ -294,18 +336,23 @@ export const resumeData = {
   ],
 
   softSkills: [
+    "Product Mindset",
+    "User Empathy",
+    "Data-Informed Decision Making",
     "Cross-functional Teamwork",
     "Problem Solving",
     "Communication",
     "Adaptability",
     "Clean Code Mindset",
     "Continuous Learning",
+    "Ownership & Accountability",
   ],
 
   communityContributions: [
     {
       title: "Roshanayee.com",
-      description: "Educational platform for programming — course development and delivery.",
+      description:
+        "Educational platform for programming — course development and delivery.",
       url: "https://roshanayee.com",
       icon: "🎓",
     },
