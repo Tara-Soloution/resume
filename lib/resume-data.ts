@@ -12,7 +12,7 @@ export const resumeData = {
     portfolio: "https://www.ataie.me",
     github: "https://github.com/abbasatayee",
     linkedin: "https://www.linkedin.com/in/abbas-ataie/",
-    profileImage: "/profile/abbas.jpg",
+    profileImage: "/profile/abbas-ataie.png",
   },
 
   summary: {
